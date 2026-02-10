@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Assem2">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0015287 -0.0001076 0.00024745"
+        rpy="0 0 0" />
+      <mass
+        value="0.42363" />
+      <inertia
+        ixx="0.0011638"
+        ixy="7.4381E-07"
+        ixz="-2.7807E-06"
+        iyy="0.001198"
+        iyz="-1.3223E-07"
+        izz="0.002121" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="left_wheel">
+    <inertial>
+      <origin
+        xyz="1.62522661995013E-10 -3.99080694271081E-05 8.68782490393016E-10"
+        rpy="0 0 0" />
+      <mass
+        value="0.0351748247993373" />
+      <inertia
+        ixx="1.52372845986856E-05"
+        ixy="1.25092023701013E-14"
+        ixz="-4.72753666347404E-10"
+        iyy="2.57858858489583E-05"
+        iyz="8.04223696040072E-14"
+        izz="1.52369776211146E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/left_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.333333333333333 0.333333333333333 0.333333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/left_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.00110236671182662 0.09918052553471 -0.0602118007276669"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_wheel" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="right_wheel">
+    <inertial>
+      <origin
+        xyz="-7.65266738866899E-10 -0.000210091929246703 -4.04959954458661E-10"
+        rpy="0 0 0" />
+      <mass
+        value="0.0351748248061151" />
+      <inertia
+        ixx="1.52372891167623E-05"
+        ixy="7.76145179179897E-14"
+        ixz="-4.71269282107877E-10"
+        iyy="2.57858858523892E-05"
+        iyz="4.03100610731925E-14"
+        izz="1.5236973107932E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/right_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.333333333333333 0.333333333333333 0.333333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/right_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_wheel_axis"
+    type="continuous">
+    <origin
+      xyz="-0.00110236743602354 -0.0990963652347736 -0.0602118007276707"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_wheel" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="front_castor_swivel">
+    <inertial>
+      <origin
+        xyz="-0.00662747137712966 0.00082573191732882 -0.011755530269531"
+        rpy="0 0 0" />
+      <mass
+        value="0.00225929587173408" />
+      <inertia
+        ixx="2.94235794193693E-07"
+        ixy="9.72459226692024E-09"
+        ixz="-9.13118605246731E-08"
+        iyy="2.99032553651638E-07"
+        iyz="1.71049060747718E-08"
+        izz="3.24471502317489E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/front_castor_swivel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.705882352941176 0.705882352941176 0.705882352941176 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/front_castor_swivel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_castor_swivel_joint"
+    type="continuous">
+    <origin
+      xyz="0.0682855861771881 -8.29198500289507E-05 -0.0559118007276681"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="front_castor_swivel" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="front_castor_wheel">
+    <inertial>
+      <origin
+        xyz="-4.17806118347963E-05 0.00223643989380329 -3.33066907387547E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.00578153317426048" />
+      <inertia
+        ixx="4.38135168803409E-07"
+        ixy="1.60705884622464E-08"
+        ixz="2.9702993554684E-24"
+        iyy="7.37153144661598E-07"
+        iyz="-1.38374641237601E-23"
+        izz="4.37273942643726E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/front_castor_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.705882352941176 0.705882352941176 0.705882352941176 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/front_castor_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_castor_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.0154360099098718 -0.00140698189836441 -0.02325"
+      rpy="0 0 0" />
+    <parent
+      link="front_castor_swivel" />
+    <child
+      link="front_castor_wheel" />
+    <axis
+      xyz="0.0535134190604983 0.998567130432629 0" />
+    <limit
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="rear_castor_swivel">
+    <inertial>
+      <origin
+        xyz="-0.00660181780592639 0.00101053944417551 -0.0117555297613057"
+        rpy="0 0 0" />
+      <mass
+        value="0.00225929598350003" />
+      <inertia
+        ixx="2.94782544285668E-07"
+        ixy="9.84337703679697E-09"
+        ixz="-9.07984276209338E-08"
+        iyy="2.98485876702089E-07"
+        iyz="1.96489684534266E-08"
+        izz="3.24471566266054E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/rear_castor_swivel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.705882352941176 0.705882352941176 0.705882352941176 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/rear_castor_swivel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rear_castor_swivel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.0704903203250691 -8.29198500289507E-05 -0.0560118007276681"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="rear_castor_swivel" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="rear_castor_wheel">
+    <inertial>
+      <origin
+        xyz="-3.33066907387547E-16 4.44089209850063E-16 2.22044604925031E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.00578153317426054" />
+      <inertia
+        ixx="4.39265975263013E-07"
+        ixy="2.43950107380631E-08"
+        ixz="-5.75352425609861E-23"
+        iyy="7.36022338202006E-07"
+        iyz="-3.12946531167788E-22"
+        izz="4.37273942643731E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/rear_castor_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.705882352941176 0.705882352941176 0.705882352941176 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/rear_castor_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rear_castor_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.0154485805658529 0.00126149058671188 -0.0232500000000001"
+      rpy="0 0 0" />
+    <parent
+      link="rear_castor_swivel" />
+    <child
+      link="rear_castor_wheel" />
+    <axis
+      xyz="0.0813864894652268 0.996682617151782 0" />
+    <limit
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="front_ultrasonic">
+    <inertial>
+      <origin
+        xyz="0.00366778084488301 -1.59732521927136E-05 -7.49171350463707E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.00401081291720019" />
+      <inertia
+        ixx="3.75731975535782E-07"
+        ixy="-3.25714288876319E-14"
+        ixz="9.4369894445709E-15"
+        iyy="1.13242599866062E-07"
+        iyz="3.5417064497483E-14"
+        izz="3.11874315212592E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/front_ultrasonic.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/front_ultrasonic.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_ultrasonic"
+    type="fixed">
+    <origin
+      xyz="0.0811855861771879 -0.000332919850029034 -0.00521180072766803"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="front_ultrasonic" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="right_ultrasonic">
+    <inertial>
+      <origin
+        xyz="-1.59732516995525E-05 -0.00366778084471608 -7.49171356525524E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.00401081291754531" />
+      <inertia
+        ixx="1.13242599866133E-07"
+        ixy="3.25714076456338E-14"
+        ixz="3.54171113882567E-14"
+        iyy="3.75731975535875E-07"
+        iyz="-9.43695793964043E-15"
+        izz="3.11874315212634E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/right_ultrasonic.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/right_ultrasonic.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_ultrasonic_joint"
+    type="fixed">
+    <origin
+      xyz="-0.0013523670739406 -0.0823708731011579 -0.00521180072766803"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_ultrasonic" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="left_ultrasonic">
+    <inertial>
+      <origin
+        xyz="0.000265972889588628 -0.0133077112888942 0.0549250828643494"
+        rpy="0 0 0" />
+      <mass
+        value="0.00401081291754678" />
+      <inertia
+        ixx="1.13242599866157E-07"
+        ixy="3.25714079434188E-14"
+        ixz="-3.5417108211821E-14"
+        iyy="3.75731975535903E-07"
+        iyz="9.43695719502015E-15"
+        izz="3.11874315212639E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/left_ultrasonic.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/left_ultrasonic.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_ultrasonic_joint"
+    type="fixed">
+    <origin
+      xyz="-0.00110236671182662 0.09918052553471 -0.0602118007276669"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_ultrasonic" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="rear_ultrasonic">
+    <inertial>
+      <origin
+        xyz="-0.00366778084472019 1.59732516984423E-05 -7.49171356508871E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0040108129175459" />
+      <inertia
+        ixx="3.75731975535883E-07"
+        ixy="-3.25714070401376E-14"
+        ixz="-9.43696052550341E-15"
+        iyy="1.13242599866138E-07"
+        iyz="-3.54171050334327E-14"
+        izz="3.11874315212637E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/rear_ultrasonic.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/rear_ultrasonic.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rear_ultrasonic_wheel"
+    type="fixed">
+    <origin
+      xyz="-0.083390320325069 0.000167080149971133 -0.00521180072766803"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="rear_ultrasonic" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="tof">
+    <inertial>
+      <origin
+        xyz="1.11022302462516E-16 2.22044604925031E-16 0.001"
+        rpy="0 0 0" />
+      <mass
+        value="0.000200000000000002" />
+      <inertia
+        ixx="1.73333333333336E-09"
+        ixy="0"
+        ixz="-1.21855212583811E-26"
+        iyy="1.73333333333336E-09"
+        iyz="4.51750905202311E-27"
+        izz="3.33333333333339E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/tof.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/tof.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="tof_joint"
+    type="fixed">
+    <origin
+      xyz="0.0756469345109923 -0.0332652787387306 -0.0583716314794056"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="tof" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="imu">
+    <inertial>
+      <origin
+        xyz="-6.31876500063466E-05 -2.71495890153961E-05 -0.000556756215958853"
+        rpy="0 0 0" />
+      <mass
+        value="0.0010750261209997" />
+      <inertia
+        ixx="3.73533571996134E-08"
+        ixy="2.60381396082965E-12"
+        ixz="-1.77225553477284E-14"
+        iyy="4.6626767351652E-08"
+        iyz="1.70011868520784E-14"
+        izz="8.34197004616879E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/imu.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/imu.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="imu_joint"
+    type="fixed">
+    <origin
+      xyz="-0.00110492627089243 -7.89021335523277E-05 0.0154381992723319"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="imu" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="lidar">
+    <inertial>
+      <origin
+        xyz="0.0123514282574037 0.0221366030214345 -0.0183711525526122"
+        rpy="0 0 0" />
+      <mass
+        value="0.0730846039145514" />
+      <inertia
+        ixx="1.96218124920878E-05"
+        ixy="-4.47299025205779E-07"
+        ixz="-4.27751291862599E-07"
+        iyy="2.40827011791942E-05"
+        iyz="-2.32325285073347E-08"
+        izz="4.14169819389697E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/lidar.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Assem2/meshes/lidar.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lidar"
+    type="fixed">
+    <origin
+      xyz="-0.00629276345390073 -0.0180413804374981 0.111394646787499"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidar" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

@@ -1,0 +1,1 @@
+controller_joint_names: ['', 'left_wheel_joint', 'right_wheel_axis', 'front_castor_swivel_joint', 'front_castor_wheel_joint', 'rear_castor_swivel_joint', 'rear_castor_wheel_joint', ]

@@ -1,7 +1,0 @@
-2025-10-30 13:05:22,539 INFO  Logger.cs: 70 - 
---------------------------------------------------------------------------------
-2025-10-30 13:05:22,584 INFO  Logger.cs: 71 - Logging commencing for SW2URDF exporter
-2025-10-30 13:05:22,585 INFO  Logger.cs: 73 - Commit version 1.6.0-1-g15f4949
-2025-10-30 13:05:22,586 INFO  Logger.cs: 74 - Build version 1.6.7594.29634
-2025-10-30 13:05:22,587 INFO  SwAddin.cs: 109 - Registering SOFTWARE\SolidWorks\Addins\{65c9fc17-6a74-45a3-8f84-55185900275d}
-2025-10-30 13:05:22,588 INFO  SwAddin.cs: 117 - Registering Software\SolidWorks\AddInsStartup\{65c9fc17-6a74-45a3-8f84-55185900275d}

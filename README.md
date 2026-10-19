@@ -13,13 +13,13 @@ Both are written as Nav2 plugins, so they can be swapped in for the default Nav2
 
 ## Demo
 
-> 🎥 **Demo video:** [Watch AGATHA in action](ADD_VIDEO_LINK_HERE)
+> 🎥 **Demo video:** [Watch AGATHA in action](https://drive.google.com/file/d/1zR3sW7k-dg7apdMwaowGOwEcAz66Prab/view?usp=sharing)
 >
 > <!-- Tip: you can also embed a GIF: ![demo](AGATHA_RENDERED/demo.gif) -->
 
 ## What the robot looks like
 
-| Render | Render |
+| Agatha Front View | Agatha Top View |
 |:---:|:---:|
 | ![AGATHA render 1](AGATHA_RENDERED/agatha_front_angled.jpg) | ![AGATHA render 2](AGATHA_RENDERED/agatha_top_view.jpg) |
 
@@ -81,7 +81,7 @@ For the real robot you also need the Arduino IDE (or `arduino-cli`) to flash the
 ## Build
 
 ```bash
-git clone <YOUR_REPO_URL>
+git clone [Agatha_Repo](https://github.com/Joshluk3328j/FYP)
 cd <repo>/agatha
 
 source /opt/ros/humble/setup.bash
@@ -116,14 +116,14 @@ ros2 launch sam_bot_nav2_gz display.launch.py use_simulation:=false
 No robot needed.
 
 ```bash
-git clone <YOUR_REPO_URL>
+git clone [Agatha_Repo](https://github.com/Joshluk3328j/FYP)
 cd <repo>/agatha
 
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install
 source install/setup.bash
 
-ros2 launch sam_bot_nav2_gz display.launch.py use_simulation:=true
+ros2 launch sam_bot_nav2_gz complete_navigation.launch.py use_simulation:=true
 ```
 
 Gazebo opens with the retail-store world and AGATHA spawned in it, and RViz opens alongside. Set the initial pose and send a **Nav2 Goal** to watch it plan and drive.
@@ -170,6 +170,7 @@ All CAD work is in `AGATHA_CAD_Model/`:
 
 ADD_LICENSE_HERE
 
-## Author
+## Authors
 
-ADD_YOUR_NAME_AND_CONTACT_HERE
+Babatunde Joseph : babatundejoseph706@gmail.com
+Itua Iregbeyanose : ituadavid200527@gmail.com

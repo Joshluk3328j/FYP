@@ -81,8 +81,8 @@ For the real robot you also need the Arduino IDE (or `arduino-cli`) to flash the
 ## Build
 
 ```bash
-git clone [Agatha_Repo](https://github.com/Joshluk3328j/FYP)
-cd <repo>/agatha
+git clone https://github.com/Joshluk3328j/FYP
+cd FYP/agatha
 
 source /opt/ros/humble/setup.bash
 rosdep install --from-paths src --ignore-src -r -y
@@ -116,8 +116,8 @@ ros2 launch sam_bot_nav2_gz display.launch.py use_simulation:=false
 No robot needed.
 
 ```bash
-git clone [Agatha_Repo](https://github.com/Joshluk3328j/FYP)
-cd <repo>/agatha
+git clone https://github.com/Joshluk3328j/FYP
+cd FYP/agatha
 
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install

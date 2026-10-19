@@ -21,7 +21,7 @@ Both are written as Nav2 plugins, so they can be swapped in for the default Nav2
 
 | Render | Render |
 |:---:|:---:|
-| ![AGATHA render 1](AGATHA_RENDERED/ADD_IMAGE_NAME_1.png) | ![AGATHA render 2](AGATHA_RENDERED/ADD_IMAGE_NAME_2.png) |
+| ![AGATHA render 1](AGATHA_RENDERED/agatha_front_angled.jpg) | ![AGATHA render 2](AGATHA_RENDERED/agatha_top_view.jpg) |
 
 <!-- Add a photo of the real robot too: ![AGATHA real](AGATHA_RENDERED/real_robot.jpg) -->
 

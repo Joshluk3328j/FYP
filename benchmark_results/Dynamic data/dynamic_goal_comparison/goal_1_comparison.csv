@@ -1,0 +1,20 @@
+metric,D*Lite + APF,D*Lite + RPP,NavFn + RPP
+success_rate,1.0,1.0,1.0
+position_error_m,0.19,0.105,0.102
+initial_plan_time_s,0.113,0.116,0.041
+total_time_s,9.67,16.793,14.334
+planned_path_length_m,0.197,0.116,0.104
+actual_path_length_m,0.875,1.079,1.112
+recovery_events,0.0,0.05,0.0
+replanning_events,7.5,9.3,9.4
+replanning_frequency_hz,0.777,0.573,0.701
+mean_replan_interval_s,1.083,1.281,1.195
+worst_replan_interval_s,1.153,2.51,2.58
+planner_cpu_avg_%,13.542,13.426,10.863
+planner_cpu_peak_%,16.625,16.395,12.415
+controller_cpu_avg_%,10.904,3.495,29.588
+controller_cpu_peak_%,41.325,25.07,155.79
+planner_ram_avg_mb,22.735,22.837,22.676
+planner_ram_peak_mb,22.764,22.973,22.8
+controller_ram_avg_mb,23.23,23.23,23.363
+controller_ram_peak_mb,23.401,23.438,23.524

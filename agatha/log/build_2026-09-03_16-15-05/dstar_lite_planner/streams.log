@@ -1,0 +1,29 @@
+[0.119s] Invoking command in '/home/jo/agatha/build/dstar_lite_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/dstar_lite_planner -- -j4 -l4
+[0.531s] [100%] Built target dstar_lite_planner
+[1.959s] Invoked command in '/home/jo/agatha/build/dstar_lite_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/dstar_lite_planner -- -j4 -l4
+[1.969s] Invoking command in '/home/jo/agatha/build/dstar_lite_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/dstar_lite_planner
+[2.098s] -- Install configuration: ""
+[2.101s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/plugin.xml
+[2.106s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/lib/libdstar_lite_planner.so
+[2.109s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/include
+[2.119s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/include/dstar_lite_planner
+[2.121s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/include/dstar_lite_planner/dstar_lite.hpp
+[2.125s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/include/dstar_lite_planner/dstar_lite_planner.hpp
+[2.128s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/plugin.xml
+[2.132s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/ament_index/resource_index/package_run_dependencies/dstar_lite_planner
+[2.143s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/ament_index/resource_index/parent_prefix_path/dstar_lite_planner
+[2.143s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/environment/ament_prefix_path.sh
+[2.144s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/environment/ament_prefix_path.dsv
+[2.144s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/environment/path.sh
+[2.145s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/environment/path.dsv
+[2.147s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/local_setup.bash
+[2.147s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/local_setup.sh
+[2.149s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/local_setup.zsh
+[2.150s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/local_setup.dsv
+[2.150s] -- Installing: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.dsv
+[2.151s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/ament_index/resource_index/packages/dstar_lite_planner
+[2.151s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/dstar_lite_planner
+[2.152s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/cmake/dstar_lite_plannerConfig.cmake
+[2.153s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/cmake/dstar_lite_plannerConfig-version.cmake
+[2.153s] -- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.xml
+[2.425s] Invoked command in '/home/jo/agatha/build/dstar_lite_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/dstar_lite_planner

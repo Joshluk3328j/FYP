@@ -1,0 +1,13 @@
+<library path="agatha_hardware">
+  <class name="agatha_hardware/DiffBotSystemHardware"
+         type="agatha_hardware::DiffBotSystemHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Hardware interface for Agatha differential drive robot.
+      Communicates with Arduino Nano over UART (/dev/arduino_nano).
+      Protocol:
+        Write : V{left_rad_s} {right_rad_s}\n
+        Read  : E{left_ticks} {right_ticks}\n
+    </description>
+  </class>
+</library>

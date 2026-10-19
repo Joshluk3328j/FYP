@@ -1,0 +1,487 @@
+[0.442s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.442s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbd260760>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbd260280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbd260280>>)
+[1.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.335s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jo/agatha'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extensions ['ignore', 'ignore_ament_install']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extension 'ignore'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extension 'ignore_ament_install'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extensions ['colcon_pkg']
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extension 'colcon_pkg'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extensions ['colcon_meta']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extension 'colcon_meta'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extensions ['ros']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extension 'ros'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extensions ['cmake', 'python']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extension 'cmake'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extension 'python'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extensions ['python_setup_py']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(agatha_arduino_firmware) by extension 'python_setup_py'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.388s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extensions ['ignore', 'ignore_ament_install']
+[1.389s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'ignore'
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'ignore_ament_install'
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extensions ['colcon_pkg']
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'colcon_pkg'
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extensions ['colcon_meta']
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'colcon_meta'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extensions ['ros']
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'ros'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extensions ['cmake', 'python']
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'cmake'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'python'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extensions ['python_setup_py']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'python_setup_py'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/agatha_hardware) by extensions ['ignore', 'ignore_ament_install']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/agatha_hardware) by extension 'ignore'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/agatha_hardware) by extension 'ignore_ament_install'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/agatha_hardware) by extensions ['colcon_pkg']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/agatha_hardware) by extension 'colcon_pkg'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/agatha_hardware) by extensions ['colcon_meta']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/agatha_hardware) by extension 'colcon_meta'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/agatha_hardware) by extensions ['ros']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/agatha_hardware) by extension 'ros'
+[1.407s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agatha_hardware' with type 'ros.ament_cmake' and name 'agatha_hardware'
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948-ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948-ros2) by extension 'ignore'
+[1.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948-ros2) by extension 'ignore_ament_install'
+[1.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948-ros2) by extensions ['colcon_pkg']
+[1.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948-ros2) by extension 'colcon_pkg'
+[1.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948-ros2) by extensions ['colcon_meta']
+[1.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948-ros2) by extension 'colcon_meta'
+[1.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948-ros2) by extensions ['ros']
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948-ros2) by extension 'ros'
+[1.412s] DEBUG:colcon.colcon_core.package_identification:Package 'src/icm20948-ros2' with type 'ros.ament_python' and name 'icm20948_ros2'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extensions ['ignore', 'ignore_ament_install']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'ignore'
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'ignore_ament_install'
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extensions ['colcon_pkg']
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'colcon_pkg'
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extensions ['colcon_meta']
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'colcon_meta'
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extensions ['ros']
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'ros'
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extensions ['cmake', 'python']
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'cmake'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'python'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extensions ['python_setup_py']
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/meshes) by extension 'python_setup_py'
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extensions ['ignore', 'ignore_ament_install']
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extension 'ignore'
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extension 'ignore_ament_install'
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extensions ['colcon_pkg']
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extension 'colcon_pkg'
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extensions ['colcon_meta']
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extension 'colcon_meta'
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extensions ['ros']
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extension 'ros'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extensions ['cmake', 'python']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extension 'cmake'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extension 'python'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extensions ['python_setup_py']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example) by extension 'python_setup_py'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/build) by extensions ['ignore', 'ignore_ament_install']
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/build) by extension 'ignore'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/build) ignored
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/install) by extensions ['ignore', 'ignore_ament_install']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/install) by extension 'ignore'
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/install) ignored
+[1.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/log) by extensions ['ignore', 'ignore_ament_install']
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/log) by extension 'ignore'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/log) ignored
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/rerun) by extensions ['ignore', 'ignore_ament_install']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/rerun) by extension 'ignore'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/rerun) ignored
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extensions ['ignore', 'ignore_ament_install']
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extension 'ignore'
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extension 'ignore_ament_install'
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extensions ['colcon_pkg']
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extension 'colcon_pkg'
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extensions ['colcon_meta']
+[1.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extension 'colcon_meta'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extensions ['ros']
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extension 'ros'
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extensions ['cmake', 'python']
+[1.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extension 'cmake'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extension 'python'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extensions ['python_setup_py']
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src) by extension 'python_setup_py'
+[1.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/apf_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/apf_controller) by extension 'ignore'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/apf_controller) by extension 'ignore_ament_install'
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/apf_controller) by extensions ['colcon_pkg']
+[1.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/apf_controller) by extension 'colcon_pkg'
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/apf_controller) by extensions ['colcon_meta']
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/apf_controller) by extension 'colcon_meta'
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/apf_controller) by extensions ['ros']
+[1.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/apf_controller) by extension 'ros'
+[1.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_ign_example/src/apf_controller' with type 'ros.ament_cmake' and name 'apf_controller'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/dstar_lite_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/dstar_lite_planner) by extension 'ignore'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/dstar_lite_planner) by extension 'ignore_ament_install'
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/dstar_lite_planner) by extensions ['colcon_pkg']
+[1.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/dstar_lite_planner) by extension 'colcon_pkg'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/dstar_lite_planner) by extensions ['colcon_meta']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/dstar_lite_planner) by extension 'colcon_meta'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/dstar_lite_planner) by extensions ['ros']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/dstar_lite_planner) by extension 'ros'
+[1.441s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_ign_example/src/dstar_lite_planner' with type 'ros.ament_cmake' and name 'dstar_lite_planner'
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/sam_bot_nav2_gz) by extensions ['ignore', 'ignore_ament_install']
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/sam_bot_nav2_gz) by extension 'ignore'
+[1.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/sam_bot_nav2_gz) by extension 'ignore_ament_install'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/sam_bot_nav2_gz) by extensions ['colcon_pkg']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/sam_bot_nav2_gz) by extension 'colcon_pkg'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/sam_bot_nav2_gz) by extensions ['colcon_meta']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/sam_bot_nav2_gz) by extension 'colcon_meta'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/sam_bot_nav2_gz) by extensions ['ros']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_ign_example/src/sam_bot_nav2_gz) by extension 'ros'
+[1.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_ign_example/src/sam_bot_nav2_gz' with type 'ros.ament_cmake' and name 'sam_bot_nav2_gz'
+[1.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.579s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/jo/agatha/install
+[1.591s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/humble
+[1.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.825s] Level 5:colcon.colcon_core.verb:set package 'agatha_hardware' build argument 'cmake_args' from command line to 'None'
+[1.825s] Level 5:colcon.colcon_core.verb:set package 'agatha_hardware' build argument 'cmake_target' from command line to 'None'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'agatha_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'agatha_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'agatha_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'agatha_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'agatha_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'agatha_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[1.826s] Level 5:colcon.colcon_core.verb:set package 'agatha_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.826s] DEBUG:colcon.colcon_core.verb:Building package 'agatha_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jo/agatha/build/agatha_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jo/agatha/install/agatha_hardware', 'merge_install': False, 'path': '/home/jo/agatha/src/agatha_hardware', 'symlink_install': False, 'test_result_base': None}
+[1.828s] Level 5:colcon.colcon_core.verb:set package 'apf_controller' build argument 'cmake_args' from command line to 'None'
+[1.828s] Level 5:colcon.colcon_core.verb:set package 'apf_controller' build argument 'cmake_target' from command line to 'None'
+[1.828s] Level 5:colcon.colcon_core.verb:set package 'apf_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.828s] Level 5:colcon.colcon_core.verb:set package 'apf_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.829s] Level 5:colcon.colcon_core.verb:set package 'apf_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.829s] Level 5:colcon.colcon_core.verb:set package 'apf_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.829s] Level 5:colcon.colcon_core.verb:set package 'apf_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.829s] Level 5:colcon.colcon_core.verb:set package 'apf_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.829s] Level 5:colcon.colcon_core.verb:set package 'apf_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.829s] DEBUG:colcon.colcon_core.verb:Building package 'apf_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jo/agatha/build/apf_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jo/agatha/install/apf_controller', 'merge_install': False, 'path': '/home/jo/agatha/src/nav2_ign_example/src/apf_controller', 'symlink_install': False, 'test_result_base': None}
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'dstar_lite_planner' build argument 'cmake_args' from command line to 'None'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'dstar_lite_planner' build argument 'cmake_target' from command line to 'None'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'dstar_lite_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'dstar_lite_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'dstar_lite_planner' build argument 'cmake_clean_first' from command line to 'False'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'dstar_lite_planner' build argument 'cmake_force_configure' from command line to 'False'
+[1.831s] Level 5:colcon.colcon_core.verb:set package 'dstar_lite_planner' build argument 'ament_cmake_args' from command line to 'None'
+[1.832s] Level 5:colcon.colcon_core.verb:set package 'dstar_lite_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[1.832s] Level 5:colcon.colcon_core.verb:set package 'dstar_lite_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.832s] DEBUG:colcon.colcon_core.verb:Building package 'dstar_lite_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jo/agatha/build/dstar_lite_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jo/agatha/install/dstar_lite_planner', 'merge_install': False, 'path': '/home/jo/agatha/src/nav2_ign_example/src/dstar_lite_planner', 'symlink_install': False, 'test_result_base': None}
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'icm20948_ros2' build argument 'cmake_args' from command line to 'None'
+[1.833s] Level 5:colcon.colcon_core.verb:set package 'icm20948_ros2' build argument 'cmake_target' from command line to 'None'
+[1.834s] Level 5:colcon.colcon_core.verb:set package 'icm20948_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.834s] Level 5:colcon.colcon_core.verb:set package 'icm20948_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.834s] Level 5:colcon.colcon_core.verb:set package 'icm20948_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.834s] Level 5:colcon.colcon_core.verb:set package 'icm20948_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.834s] Level 5:colcon.colcon_core.verb:set package 'icm20948_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.834s] Level 5:colcon.colcon_core.verb:set package 'icm20948_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.834s] Level 5:colcon.colcon_core.verb:set package 'icm20948_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.834s] DEBUG:colcon.colcon_core.verb:Building package 'icm20948_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jo/agatha/build/icm20948_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jo/agatha/install/icm20948_ros2', 'merge_install': False, 'path': '/home/jo/agatha/src/icm20948-ros2', 'symlink_install': False, 'test_result_base': None}
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'cmake_args' from command line to 'None'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'cmake_target' from command line to 'None'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'cmake_clean_first' from command line to 'False'
+[1.836s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'cmake_force_configure' from command line to 'False'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'ament_cmake_args' from command line to 'None'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[1.837s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_nav2_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.837s] DEBUG:colcon.colcon_core.verb:Building package 'sam_bot_nav2_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jo/agatha/build/sam_bot_nav2_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jo/agatha/install/sam_bot_nav2_gz', 'merge_install': False, 'path': '/home/jo/agatha/src/nav2_ign_example/src/sam_bot_nav2_gz', 'symlink_install': False, 'test_result_base': None}
+[1.837s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.842s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jo/agatha/src/agatha_hardware' with build type 'ament_cmake'
+[1.843s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jo/agatha/src/agatha_hardware'
+[1.852s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.853s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.877s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jo/agatha/src/nav2_ign_example/src/apf_controller' with build type 'ament_cmake'
+[1.877s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jo/agatha/src/nav2_ign_example/src/apf_controller'
+[1.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.903s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jo/agatha/src/nav2_ign_example/src/dstar_lite_planner' with build type 'ament_cmake'
+[1.904s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jo/agatha/src/nav2_ign_example/src/dstar_lite_planner'
+[1.905s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.906s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.930s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jo/agatha/src/icm20948-ros2' with build type 'ament_python'
+[1.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('icm20948_ros2', 'ament_prefix_path')
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/icm20948_ros2/share/icm20948_ros2/hook/ament_prefix_path.ps1'
+[1.935s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/icm20948_ros2/share/icm20948_ros2/hook/ament_prefix_path.dsv'
+[1.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/icm20948_ros2/share/icm20948_ros2/hook/ament_prefix_path.sh'
+[1.943s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.943s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jo/agatha/build/agatha_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/agatha_hardware -- -j4 -l4
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jo/agatha/build/apf_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/apf_controller -- -j4 -l4
+[2.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jo/agatha/build/dstar_lite_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/dstar_lite_planner -- -j4 -l4
+[3.476s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jo/agatha/src/icm20948-ros2'
+[3.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jo/agatha/build/agatha_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/agatha_hardware -- -j4 -l4
+[3.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jo/agatha/build/agatha_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/agatha_hardware
+[3.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jo/agatha/build/dstar_lite_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/dstar_lite_planner -- -j4 -l4
+[3.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jo/agatha/build/dstar_lite_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/dstar_lite_planner
+[3.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agatha_hardware)
+[3.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jo/agatha/build/agatha_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/agatha_hardware
+[3.660s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware' for CMake module files
+[3.670s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware' for CMake config files
+[3.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('agatha_hardware', 'cmake_prefix_path')
+[3.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/hook/cmake_prefix_path.ps1'
+[3.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/hook/cmake_prefix_path.dsv'
+[3.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/hook/cmake_prefix_path.sh'
+[3.686s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware/lib'
+[3.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('agatha_hardware', 'ld_library_path_lib')
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/hook/ld_library_path_lib.ps1'
+[3.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/hook/ld_library_path_lib.dsv'
+[3.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/hook/ld_library_path_lib.sh'
+[3.696s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware/bin'
+[3.696s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware/lib/pkgconfig/agatha_hardware.pc'
+[3.697s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware/lib/python3.10/site-packages'
+[3.699s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware/bin'
+[3.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.ps1'
+[3.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.dsv'
+[3.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.sh'
+[3.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.bash'
+[3.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.zsh'
+[3.725s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jo/agatha/install/agatha_hardware/share/colcon-core/packages/agatha_hardware)
+[3.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agatha_hardware)
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware' for CMake module files
+[3.733s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware' for CMake config files
+[3.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('agatha_hardware', 'cmake_prefix_path')
+[3.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/hook/cmake_prefix_path.ps1'
+[3.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/hook/cmake_prefix_path.dsv'
+[3.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/hook/cmake_prefix_path.sh'
+[3.744s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware/lib'
+[3.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('agatha_hardware', 'ld_library_path_lib')
+[3.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/hook/ld_library_path_lib.ps1'
+[3.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/hook/ld_library_path_lib.dsv'
+[3.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/hook/ld_library_path_lib.sh'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware/bin'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware/lib/pkgconfig/agatha_hardware.pc'
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware/lib/python3.10/site-packages'
+[3.756s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/agatha_hardware/bin'
+[3.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.ps1'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.dsv'
+[3.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.sh'
+[3.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.bash'
+[3.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.zsh'
+[3.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jo/agatha/install/agatha_hardware/share/colcon-core/packages/agatha_hardware)
+[3.777s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jo/agatha/src/nav2_ign_example/src/sam_bot_nav2_gz' with build type 'ament_cmake'
+[3.778s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jo/agatha/src/nav2_ign_example/src/sam_bot_nav2_gz'
+[3.779s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.779s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dstar_lite_planner)
+[3.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jo/agatha/build/dstar_lite_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/dstar_lite_planner
+[3.815s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner' for CMake module files
+[3.819s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner' for CMake config files
+[3.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('dstar_lite_planner', 'cmake_prefix_path')
+[3.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/hook/cmake_prefix_path.ps1'
+[3.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/hook/cmake_prefix_path.dsv'
+[3.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/hook/cmake_prefix_path.sh'
+[3.830s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner/lib'
+[3.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('dstar_lite_planner', 'ld_library_path_lib')
+[3.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/hook/ld_library_path_lib.ps1'
+[3.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/hook/ld_library_path_lib.dsv'
+[3.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/hook/ld_library_path_lib.sh'
+[3.839s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner/bin'
+[3.839s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner/lib/pkgconfig/dstar_lite_planner.pc'
+[3.841s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner/lib/python3.10/site-packages'
+[3.843s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner/bin'
+[3.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.ps1'
+[3.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.dsv'
+[3.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.sh'
+[3.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.bash'
+[3.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.zsh'
+[3.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jo/agatha/install/dstar_lite_planner/share/colcon-core/packages/dstar_lite_planner)
+[3.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dstar_lite_planner)
+[3.866s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner' for CMake module files
+[3.869s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner' for CMake config files
+[3.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('dstar_lite_planner', 'cmake_prefix_path')
+[3.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/hook/cmake_prefix_path.ps1'
+[3.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/hook/cmake_prefix_path.dsv'
+[3.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/hook/cmake_prefix_path.sh'
+[3.880s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner/lib'
+[3.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('dstar_lite_planner', 'ld_library_path_lib')
+[3.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/hook/ld_library_path_lib.ps1'
+[3.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/hook/ld_library_path_lib.dsv'
+[3.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/hook/ld_library_path_lib.sh'
+[3.889s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner/bin'
+[3.889s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner/lib/pkgconfig/dstar_lite_planner.pc'
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner/lib/python3.10/site-packages'
+[3.892s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/dstar_lite_planner/bin'
+[3.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.ps1'
+[3.900s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.dsv'
+[3.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.sh'
+[3.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.bash'
+[3.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.zsh'
+[3.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jo/agatha/install/dstar_lite_planner/share/colcon-core/packages/dstar_lite_planner)
+[3.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jo/agatha/build/sam_bot_nav2_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/sam_bot_nav2_gz -- -j4 -l4
+[4.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jo/agatha/build/sam_bot_nav2_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/sam_bot_nav2_gz -- -j4 -l4
+[4.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jo/agatha/build/sam_bot_nav2_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/sam_bot_nav2_gz
+[4.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sam_bot_nav2_gz)
+[4.507s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz' for CMake module files
+[4.517s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz' for CMake config files
+[4.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('sam_bot_nav2_gz', 'cmake_prefix_path')
+[4.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/hook/cmake_prefix_path.ps1'
+[4.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/hook/cmake_prefix_path.dsv'
+[4.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/hook/cmake_prefix_path.sh'
+[4.583s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz/lib'
+[4.584s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz/bin'
+[4.584s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz/lib/pkgconfig/sam_bot_nav2_gz.pc'
+[4.586s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz/lib/python3.10/site-packages'
+[4.588s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz/bin'
+[4.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.ps1'
+[4.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.dsv'
+[4.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.sh'
+[4.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.bash'
+[4.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.zsh'
+[4.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jo/agatha/install/sam_bot_nav2_gz/share/colcon-core/packages/sam_bot_nav2_gz)
+[4.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sam_bot_nav2_gz)
+[4.619s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz' for CMake module files
+[4.624s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz' for CMake config files
+[4.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jo/agatha/build/sam_bot_nav2_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/sam_bot_nav2_gz
+[4.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('sam_bot_nav2_gz', 'cmake_prefix_path')
+[4.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/hook/cmake_prefix_path.ps1'
+[4.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/hook/cmake_prefix_path.dsv'
+[4.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/hook/cmake_prefix_path.sh'
+[4.685s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz/lib'
+[4.686s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz/bin'
+[4.686s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz/lib/pkgconfig/sam_bot_nav2_gz.pc'
+[4.687s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz/lib/python3.10/site-packages'
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/sam_bot_nav2_gz/bin'
+[4.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.ps1'
+[4.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.dsv'
+[4.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.sh'
+[4.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.bash'
+[4.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.zsh'
+[4.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jo/agatha/install/sam_bot_nav2_gz/share/colcon-core/packages/sam_bot_nav2_gz)
+[5.729s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: dist_info, sdist, saveopts, compile_catalog, extract_messages, bdist_dumb, symlink_data, build_ext, rotate, build_scripts, build, update_catalog, clean, bdist_wheel, install_scripts, check, register, upload, setopt, easy_install, install_egg_info, install, install_headers, bdist_rpm, install_data, bdist, bdist_egg, install_lib, test, egg_info, upload_docs, init_catalog, build_py, build_clib, develop, alias
+[5.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jo/agatha/src/icm20948-ros2': PYTHONPATH=/home/jo/agatha/build/icm20948_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/icm20948_ros2 build --build-base /home/jo/agatha/build/icm20948_ros2/build install --record /home/jo/agatha/build/icm20948_ros2/install.log --install-scripts $base/lib/icm20948_ros2 --single-version-externally-managed install_data
+[7.650s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/icm20948_ros2' for CMake module files
+[7.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jo/agatha/src/icm20948-ros2' returned '0': PYTHONPATH=/home/jo/agatha/build/icm20948_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/icm20948_ros2 build --build-base /home/jo/agatha/build/icm20948_ros2/build install --record /home/jo/agatha/build/icm20948_ros2/install.log --install-scripts $base/lib/icm20948_ros2 --single-version-externally-managed install_data
+[7.654s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/icm20948_ros2' for CMake config files
+[7.658s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/icm20948_ros2/lib'
+[7.659s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/icm20948_ros2/bin'
+[7.659s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/icm20948_ros2/lib/pkgconfig/icm20948_ros2.pc'
+[7.661s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages'
+[7.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('icm20948_ros2', 'pythonpath')
+[7.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/icm20948_ros2/share/icm20948_ros2/hook/pythonpath.ps1'
+[7.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/icm20948_ros2/share/icm20948_ros2/hook/pythonpath.dsv'
+[7.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/icm20948_ros2/share/icm20948_ros2/hook/pythonpath.sh'
+[7.672s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/icm20948_ros2/bin'
+[7.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(icm20948_ros2)
+[7.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/icm20948_ros2/share/icm20948_ros2/package.ps1'
+[7.679s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jo/agatha/install/icm20948_ros2/share/icm20948_ros2/package.dsv'
+[7.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/icm20948_ros2/share/icm20948_ros2/package.sh'
+[7.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/icm20948_ros2/share/icm20948_ros2/package.bash'
+[7.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/icm20948_ros2/share/icm20948_ros2/package.zsh'
+[7.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jo/agatha/install/icm20948_ros2/share/colcon-core/packages/icm20948_ros2)
+[24.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jo/agatha/build/apf_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/apf_controller -- -j4 -l4
+[24.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jo/agatha/build/apf_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/apf_controller
+[24.952s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apf_controller)
+[24.953s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller' for CMake module files
+[24.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jo/agatha/build/apf_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/apf_controller
+[24.957s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller' for CMake config files
+[24.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('apf_controller', 'cmake_prefix_path')
+[24.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/apf_controller/share/apf_controller/hook/cmake_prefix_path.ps1'
+[24.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/apf_controller/share/apf_controller/hook/cmake_prefix_path.dsv'
+[24.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/apf_controller/share/apf_controller/hook/cmake_prefix_path.sh'
+[24.967s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller/lib'
+[24.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('apf_controller', 'ld_library_path_lib')
+[24.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/apf_controller/share/apf_controller/hook/ld_library_path_lib.ps1'
+[24.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/apf_controller/share/apf_controller/hook/ld_library_path_lib.dsv'
+[24.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/apf_controller/share/apf_controller/hook/ld_library_path_lib.sh'
+[24.975s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller/bin'
+[24.975s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller/lib/pkgconfig/apf_controller.pc'
+[24.976s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller/lib/python3.10/site-packages'
+[24.978s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller/bin'
+[24.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/apf_controller/share/apf_controller/package.ps1'
+[24.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jo/agatha/install/apf_controller/share/apf_controller/package.dsv'
+[24.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/apf_controller/share/apf_controller/package.sh'
+[24.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/apf_controller/share/apf_controller/package.bash'
+[24.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/apf_controller/share/apf_controller/package.zsh'
+[24.990s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jo/agatha/install/apf_controller/share/colcon-core/packages/apf_controller)
+[24.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apf_controller)
+[24.994s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller' for CMake module files
+[24.997s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller' for CMake config files
+[24.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('apf_controller', 'cmake_prefix_path')
+[24.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/apf_controller/share/apf_controller/hook/cmake_prefix_path.ps1'
+[25.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/apf_controller/share/apf_controller/hook/cmake_prefix_path.dsv'
+[25.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/apf_controller/share/apf_controller/hook/cmake_prefix_path.sh'
+[25.005s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller/lib'
+[25.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('apf_controller', 'ld_library_path_lib')
+[25.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/apf_controller/share/apf_controller/hook/ld_library_path_lib.ps1'
+[25.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jo/agatha/install/apf_controller/share/apf_controller/hook/ld_library_path_lib.dsv'
+[25.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jo/agatha/install/apf_controller/share/apf_controller/hook/ld_library_path_lib.sh'
+[25.013s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller/bin'
+[25.013s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller/lib/pkgconfig/apf_controller.pc'
+[25.014s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller/lib/python3.10/site-packages'
+[25.015s] Level 1:colcon.colcon_core.environment:checking '/home/jo/agatha/install/apf_controller/bin'
+[25.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/apf_controller/share/apf_controller/package.ps1'
+[25.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jo/agatha/install/apf_controller/share/apf_controller/package.dsv'
+[25.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/apf_controller/share/apf_controller/package.sh'
+[25.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/apf_controller/share/apf_controller/package.bash'
+[25.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/jo/agatha/install/apf_controller/share/apf_controller/package.zsh'
+[25.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jo/agatha/install/apf_controller/share/colcon-core/packages/apf_controller)
+[25.031s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.033s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.035s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.036s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jo/agatha/install/local_setup.ps1'
+[25.040s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jo/agatha/install/_local_setup_util_ps1.py'
+[25.048s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jo/agatha/install/setup.ps1'
+[25.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jo/agatha/install/local_setup.sh'
+[25.058s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jo/agatha/install/_local_setup_util_sh.py'
+[25.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jo/agatha/install/setup.sh'
+[25.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jo/agatha/install/local_setup.bash'
+[25.069s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jo/agatha/install/setup.bash'
+[25.076s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jo/agatha/install/local_setup.zsh'
+[25.079s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jo/agatha/install/setup.zsh'

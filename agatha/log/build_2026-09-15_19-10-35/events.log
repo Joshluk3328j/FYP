@@ -1,0 +1,719 @@
+[0.000000] (-) TimerEvent: {}
+[0.001751] (agatha_hardware) JobQueued: {'identifier': 'agatha_hardware', 'dependencies': OrderedDict()}
+[0.002347] (apf_controller) JobQueued: {'identifier': 'apf_controller', 'dependencies': OrderedDict()}
+[0.002985] (dstar_lite_planner) JobQueued: {'identifier': 'dstar_lite_planner', 'dependencies': OrderedDict()}
+[0.003168] (icm20948_ros2) JobQueued: {'identifier': 'icm20948_ros2', 'dependencies': OrderedDict()}
+[0.003353] (sam_bot_nav2_gz) JobQueued: {'identifier': 'sam_bot_nav2_gz', 'dependencies': OrderedDict()}
+[0.003578] (agatha_hardware) JobStarted: {'identifier': 'agatha_hardware'}
+[0.037119] (apf_controller) JobStarted: {'identifier': 'apf_controller'}
+[0.063257] (dstar_lite_planner) JobStarted: {'identifier': 'dstar_lite_planner'}
+[0.089389] (icm20948_ros2) JobStarted: {'identifier': 'icm20948_ros2'}
+[0.099498] (-) TimerEvent: {}
+[0.131279] (agatha_hardware) JobProgress: {'identifier': 'agatha_hardware', 'progress': 'cmake'}
+[0.134717] (agatha_hardware) JobProgress: {'identifier': 'agatha_hardware', 'progress': 'build'}
+[0.137442] (agatha_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jo/agatha/build/agatha_hardware', '--', '-j4', '-l4'], 'cwd': '/home/jo/agatha/build/agatha_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jo'), ('SSH_CLIENT', '172.20.10.4 53790 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jo/agatha/install/dstar_lite_planner/lib:/home/jo/agatha/install/apf_controller/lib:/home/jo/agatha/install/agatha_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jo'), ('OLDPWD', '/home/jo'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jo/agatha/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jo/bin:/usr/local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/icm20948_ros2:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jo/agatha/build/agatha_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.4 53790 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble')]), 'shell': False}
+[0.150567] (apf_controller) JobProgress: {'identifier': 'apf_controller', 'progress': 'cmake'}
+[0.155153] (apf_controller) JobProgress: {'identifier': 'apf_controller', 'progress': 'build'}
+[0.162080] (apf_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jo/agatha/build/apf_controller', '--', '-j4', '-l4'], 'cwd': '/home/jo/agatha/build/apf_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jo'), ('SSH_CLIENT', '172.20.10.4 53790 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jo/agatha/install/dstar_lite_planner/lib:/home/jo/agatha/install/apf_controller/lib:/home/jo/agatha/install/agatha_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jo'), ('OLDPWD', '/home/jo'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jo/agatha/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jo/bin:/usr/local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/icm20948_ros2:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jo/agatha/build/apf_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.4 53790 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble')]), 'shell': False}
+[0.168661] (dstar_lite_planner) JobProgress: {'identifier': 'dstar_lite_planner', 'progress': 'cmake'}
+[0.173303] (dstar_lite_planner) JobProgress: {'identifier': 'dstar_lite_planner', 'progress': 'build'}
+[0.174894] (dstar_lite_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jo/agatha/build/dstar_lite_planner', '--', '-j4', '-l4'], 'cwd': '/home/jo/agatha/build/dstar_lite_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jo'), ('SSH_CLIENT', '172.20.10.4 53790 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jo/agatha/install/dstar_lite_planner/lib:/home/jo/agatha/install/apf_controller/lib:/home/jo/agatha/install/agatha_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jo'), ('OLDPWD', '/home/jo'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jo/agatha/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jo/bin:/usr/local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/icm20948_ros2:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jo/agatha/build/dstar_lite_planner'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.4 53790 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble')]), 'shell': False}
+[0.199751] (-) TimerEvent: {}
+[0.300766] (-) TimerEvent: {}
+[0.402569] (-) TimerEvent: {}
+[0.406600] (apf_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apf_controller\x1b[0m\n'}
+[0.452697] (agatha_hardware) StdoutLine: {'line': b'[100%] Built target agatha_hardware\n'}
+[0.502807] (-) TimerEvent: {}
+[0.546026] (dstar_lite_planner) StdoutLine: {'line': b'[100%] Built target dstar_lite_planner\n'}
+[0.597618] (apf_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/apf_controller.dir/src/apf_controller.cpp.o\x1b[0m\n'}
+[0.603096] (-) TimerEvent: {}
+[0.704442] (-) TimerEvent: {}
+[0.805576] (-) TimerEvent: {}
+[0.906642] (-) TimerEvent: {}
+[1.007864] (-) TimerEvent: {}
+[1.108747] (-) TimerEvent: {}
+[1.209764] (-) TimerEvent: {}
+[1.310830] (-) TimerEvent: {}
+[1.411926] (-) TimerEvent: {}
+[1.513083] (-) TimerEvent: {}
+[1.614371] (-) TimerEvent: {}
+[1.677539] (agatha_hardware) CommandEnded: {'returncode': 0}
+[1.680071] (agatha_hardware) JobProgress: {'identifier': 'agatha_hardware', 'progress': 'install'}
+[1.719934] (agatha_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jo/agatha/build/agatha_hardware'], 'cwd': '/home/jo/agatha/build/agatha_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jo'), ('SSH_CLIENT', '172.20.10.4 53790 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jo/agatha/install/dstar_lite_planner/lib:/home/jo/agatha/install/apf_controller/lib:/home/jo/agatha/install/agatha_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jo'), ('OLDPWD', '/home/jo'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jo/agatha/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jo/bin:/usr/local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/icm20948_ros2:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jo/agatha/build/agatha_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.4 53790 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble')]), 'shell': False}
+[1.722605] (-) TimerEvent: {}
+[1.724500] (dstar_lite_planner) CommandEnded: {'returncode': 0}
+[1.732866] (dstar_lite_planner) JobProgress: {'identifier': 'dstar_lite_planner', 'progress': 'install'}
+[1.733329] (dstar_lite_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jo/agatha/build/dstar_lite_planner'], 'cwd': '/home/jo/agatha/build/dstar_lite_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jo'), ('SSH_CLIENT', '172.20.10.4 53790 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jo/agatha/install/dstar_lite_planner/lib:/home/jo/agatha/install/apf_controller/lib:/home/jo/agatha/install/agatha_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jo'), ('OLDPWD', '/home/jo'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jo/agatha/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jo/bin:/usr/local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/icm20948_ros2:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jo/agatha/build/dstar_lite_planner'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.4 53790 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble')]), 'shell': False}
+[1.753109] (agatha_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.754775] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/agatha_hardware.xml\n'}
+[1.755798] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/lib/libagatha_hardware.so\n'}
+[1.757976] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/include\n'}
+[1.759292] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/include/agatha_hardware\n'}
+[1.760733] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/include/agatha_hardware/diffbot_system.hpp\n'}
+[1.763565] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/include/agatha_hardware/diffbot_system copy.hpp\n'}
+[1.766443] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/agatha_hardware.xml\n'}
+[1.766993] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/library_path.sh\n'}
+[1.768334] (dstar_lite_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.771813] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/library_path.dsv\n'}
+[1.772929] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/plugin.xml\n'}
+[1.775149] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/package_run_dependencies/agatha_hardware\n'}
+[1.775607] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/parent_prefix_path/agatha_hardware\n'}
+[1.789414] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/lib/libdstar_lite_planner.so\n'}
+[1.790683] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/include\n'}
+[1.793593] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/include/dstar_lite_planner\n'}
+[1.796371] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/ament_prefix_path.sh\n'}
+[1.797786] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/include/dstar_lite_planner/dstar_lite.hpp\n'}
+[1.801957] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/include/dstar_lite_planner/dstar_lite_planner.hpp\n'}
+[1.805021] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/ament_prefix_path.dsv\n'}
+[1.806945] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/plugin.xml\n'}
+[1.807886] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/ament_index/resource_index/package_run_dependencies/dstar_lite_planner\n'}
+[1.809276] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/ament_index/resource_index/parent_prefix_path/dstar_lite_planner\n'}
+[1.810724] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/environment/ament_prefix_path.sh\n'}
+[1.812035] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/path.sh\n'}
+[1.814183] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/path.dsv\n'}
+[1.815193] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/environment/ament_prefix_path.dsv\n'}
+[1.816197] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/environment/path.sh\n'}
+[1.818379] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/environment/path.dsv\n'}
+[1.819638] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.bash\n'}
+[1.820455] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/local_setup.bash\n'}
+[1.821489] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/local_setup.sh\n'}
+[1.822250] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/local_setup.zsh\n'}
+[1.822740] (-) TimerEvent: {}
+[1.824641] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.sh\n'}
+[1.825365] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.zsh\n'}
+[1.827082] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/local_setup.dsv\n'}
+[1.828398] (dstar_lite_planner) StdoutLine: {'line': b'-- Installing: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.dsv\n'}
+[1.829586] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/ament_index/resource_index/packages/dstar_lite_planner\n'}
+[1.830363] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/dstar_lite_planner\n'}
+[1.832062] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/cmake/dstar_lite_plannerConfig.cmake\n'}
+[1.832613] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/cmake/dstar_lite_plannerConfig-version.cmake\n'}
+[1.833864] (dstar_lite_planner) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/dstar_lite_planner/share/dstar_lite_planner/package.xml\n'}
+[1.835371] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.dsv\n'}
+[1.837019] (agatha_hardware) StdoutLine: {'line': b'-- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.dsv\n'}
+[1.837607] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/packages/agatha_hardware\n'}
+[1.838097] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/agatha_hardware\n'}
+[1.838650] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.840217] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.841142] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.843043] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/agatha_hardwareConfig.cmake\n'}
+[1.844511] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/agatha_hardwareConfig-version.cmake\n'}
+[1.845822] (agatha_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.xml\n'}
+[1.849068] (dstar_lite_planner) CommandEnded: {'returncode': 0}
+[1.922937] (-) TimerEvent: {}
+[1.978821] (dstar_lite_planner) JobEnded: {'identifier': 'dstar_lite_planner', 'rc': 0}
+[1.987683] (sam_bot_nav2_gz) JobStarted: {'identifier': 'sam_bot_nav2_gz'}
+[2.015668] (agatha_hardware) CommandEnded: {'returncode': 0}
+[2.023105] (-) TimerEvent: {}
+[2.118522] (agatha_hardware) JobEnded: {'identifier': 'agatha_hardware', 'rc': 0}
+[2.124155] (-) TimerEvent: {}
+[2.125715] (sam_bot_nav2_gz) JobProgress: {'identifier': 'sam_bot_nav2_gz', 'progress': 'cmake'}
+[2.128785] (sam_bot_nav2_gz) JobProgress: {'identifier': 'sam_bot_nav2_gz', 'progress': 'build'}
+[2.130082] (sam_bot_nav2_gz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jo/agatha/build/sam_bot_nav2_gz', '--', '-j4', '-l4'], 'cwd': '/home/jo/agatha/build/sam_bot_nav2_gz', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jo'), ('SSH_CLIENT', '172.20.10.4 53790 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jo/agatha/install/dstar_lite_planner/lib:/home/jo/agatha/install/apf_controller/lib:/home/jo/agatha/install/agatha_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jo'), ('OLDPWD', '/home/jo'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jo/agatha/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jo/bin:/usr/local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/icm20948_ros2:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jo/agatha/build/sam_bot_nav2_gz'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.4 53790 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble')]), 'shell': False}
+[2.224355] (-) TimerEvent: {}
+[2.307640] (sam_bot_nav2_gz) CommandEnded: {'returncode': 0}
+[2.315887] (sam_bot_nav2_gz) JobProgress: {'identifier': 'sam_bot_nav2_gz', 'progress': 'install'}
+[2.316182] (sam_bot_nav2_gz) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jo/agatha/build/sam_bot_nav2_gz'], 'cwd': '/home/jo/agatha/build/sam_bot_nav2_gz', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jo'), ('SSH_CLIENT', '172.20.10.4 53790 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jo/agatha/install/dstar_lite_planner/lib:/home/jo/agatha/install/apf_controller/lib:/home/jo/agatha/install/agatha_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jo'), ('OLDPWD', '/home/jo'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jo/agatha/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jo/bin:/usr/local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/icm20948_ros2:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jo/agatha/build/sam_bot_nav2_gz'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '172.20.10.4 53790 172.20.10.2 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble')]), 'shell': False}
+[2.324562] (-) TimerEvent: {}
+[2.349993] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.350868] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src\n'}
+[2.352852] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description\n'}
+[2.355183] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description/sam_bot_description copy.urdf\n'}
+[2.356375] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/src/description/sam_bot_description.urdf\n'}
+[2.357369] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts\n'}
+[2.358554] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/__init__.py\n'}
+[2.359484] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/follow_waypoints.py\n'}
+[2.360248] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/scripts/reach_goal.py\n'}
+[2.361125] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch\n'}
+[2.362274] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/complete_navigation.launch copy.py\n'}
+[2.364482] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/hardware_bringup.launch copy.py\n'}
+[2.366526] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/complete_navigation.launch.py\n'}
+[2.367445] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/hardware_bringup.launch.py\n'}
+[2.368318] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/launch/display.launch.py\n'}
+[2.369272] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz\n'}
+[2.370405] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz/navigation_config.rviz\n'}
+[2.371286] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/rviz/urdf_config.rviz\n'}
+[2.372141] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config\n'}
+[2.373512] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/ekf copy.yaml\n'}
+[2.374546] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/nav2_params copy 2.yaml\n'}
+[2.375906] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/diff_drive_controller_velocity.yaml\n'}
+[2.377012] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/ekf.yaml\n'}
+[2.378192] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/nav2_params.yaml\n'}
+[2.379368] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/planners\n'}
+[2.380900] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/planners/dstar_apf.yaml\n'}
+[2.382086] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/planners/navfn_apf.yaml\n'}
+[2.383200] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/planners/dstar_dwa.yaml\n'}
+[2.384380] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/planners/dstar_rpp.yaml\n'}
+[2.385521] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/planners/navfn_dwa.yaml\n'}
+[2.386686] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/planners/navfn_rpp.yaml\n'}
+[2.387859] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/config/nav2_params copy.yaml\n'}
+[2.388915] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world\n'}
+[2.390266] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world/bookstore.sdf\n'}
+[2.391360] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/world/empty.sdf\n'}
+[2.392463] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models\n'}
+[2.394024] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnB_01\n'}
+[2.395447] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnB_01/materials\n'}
+[2.396971] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnB_01/materials/textures\n'}
+[2.398508] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnB_01/materials/textures/aws_ColumnB_01.png\n'}
+[2.399777] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnB_01/model.sdf\n'}
+[2.400935] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnB_01/meshes\n'}
+[2.402232] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnB_01/meshes/aws_ColumnB_01_visual.DAE\n'}
+[2.403528] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnB_01/meshes/aws_ColumnB_01_collision.DAE\n'}
+[2.404286] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnB_01/model.config\n'}
+[2.405540] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SecurityCamera_01\n'}
+[2.406593] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SecurityCamera_01/materials\n'}
+[2.407670] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SecurityCamera_01/materials/textures\n'}
+[2.408554] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SecurityCamera_01/materials/textures/aws_SecurityCamera_01.png\n'}
+[2.409306] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SecurityCamera_01/model.sdf\n'}
+[2.409793] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SecurityCamera_01/meshes\n'}
+[2.410250] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SecurityCamera_01/meshes/aws_SecurityCamera_01_visual.DAE\n'}
+[2.410653] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE\n'}
+[2.411091] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SecurityCamera_01/model.config\n'}
+[2.411519] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_InfoDesk_01\n'}
+[2.411888] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_InfoDesk_01/materials\n'}
+[2.412287] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_InfoDesk_01/materials/textures\n'}
+[2.412835] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_InfoDesk_01/materials/textures/aws_InfoDesk_01.png\n'}
+[2.413293] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_InfoDesk_01/model.sdf\n'}
+[2.414164] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_InfoDesk_01/meshes\n'}
+[2.415529] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_InfoDesk_01/meshes/aws_InfoDesk_01_collision.DAE\n'}
+[2.416789] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_InfoDesk_01/meshes/aws_InfoDesk_01_visual.DAE\n'}
+[2.417952] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_InfoDesk_01/model.config\n'}
+[2.419055] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_MagicCube_01\n'}
+[2.420217] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_MagicCube_01/materials\n'}
+[2.421694] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_MagicCube_01/materials/textures\n'}
+[2.423087] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_MagicCube_01/materials/textures/aws_MagicCube_01.png\n'}
+[2.424264] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_MagicCube_01/model.sdf\n'}
+[2.424931] (-) TimerEvent: {}
+[2.426117] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_MagicCube_01/meshes\n'}
+[2.427214] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_MagicCube_01/meshes/aws_MagicCube_01_visual.DAE\n'}
+[2.428393] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_MagicCube_01/meshes/aws_MagicCube_01_collision.DAE\n'}
+[2.429623] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_MagicCube_01/model.config\n'}
+[2.430656] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookF_01\n'}
+[2.431870] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookF_01/materials\n'}
+[2.432887] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookF_01/materials/textures\n'}
+[2.433970] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookF_01/materials/textures/aws_BookF_01.png\n'}
+[2.435097] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookF_01/model.sdf\n'}
+[2.435942] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookF_01/meshes\n'}
+[2.437155] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookF_01/meshes/aws_BookF_01_visual.DAE\n'}
+[2.438161] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookF_01/meshes/aws_BookF_01_collision.DAE\n'}
+[2.439083] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookF_01/model.config\n'}
+[2.439854] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_TabletB_01\n'}
+[2.440912] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_TabletB_01/materials\n'}
+[2.441393] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_TabletB_01/materials/textures\n'}
+[2.441995] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_TabletB_01/materials/textures/aws_TabletB_01.png\n'}
+[2.442428] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_TabletB_01/model.sdf\n'}
+[2.442807] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_TabletB_01/meshes\n'}
+[2.443186] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_TabletB_01/meshes/aws_TabletB_01_visual.DAE\n'}
+[2.443578] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_TabletB_01/meshes/aws_TabletB_01_collision.DAE\n'}
+[2.444024] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_TabletB_01/model.config\n'}
+[2.444410] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_AirConditionerC_01\n'}
+[2.444940] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_AirConditionerC_01/materials\n'}
+[2.445358] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_AirConditionerC_01/materials/textures\n'}
+[2.445769] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_AirConditionerC_01/materials/textures/aws_AirConditionerC_01.png\n'}
+[2.446175] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_AirConditionerC_01/model.sdf\n'}
+[2.446686] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_AirConditionerC_01/meshes\n'}
+[2.447783] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_AirConditionerC_01/meshes/aws_AirConditionerC_01_collision.DAE\n'}
+[2.448866] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_AirConditionerC_01/meshes/aws_AirConditionerC_01_visual.DAE\n'}
+[2.449889] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_AirConditionerC_01/model.config\n'}
+[2.450902] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Holder_01\n'}
+[2.452292] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Holder_01/materials\n'}
+[2.453526] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Holder_01/materials/textures\n'}
+[2.454851] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Holder_01/materials/textures/aws_Holder_01.png\n'}
+[2.456088] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Holder_01/model.sdf\n'}
+[2.457189] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Holder_01/meshes\n'}
+[2.458531] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Holder_01/meshes/aws_Holder_01_visual.DAE\n'}
+[2.459762] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Holder_01/meshes/aws_Holder_01_collision.DAE\n'}
+[2.461038] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Holder_01/model.config\n'}
+[2.462135] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookE_01\n'}
+[2.463436] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookE_01/materials\n'}
+[2.464729] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookE_01/materials/textures\n'}
+[2.466076] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookE_01/materials/textures/aws_BookE_02.png\n'}
+[2.467180] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookE_01/materials/textures/aws_BookE_01.png\n'}
+[2.468204] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookE_01/model.sdf\n'}
+[2.469221] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookE_01/meshes\n'}
+[2.470503] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookE_01/meshes/aws_BookE_01_visual.DAE\n'}
+[2.471777] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookE_01/meshes/aws_BookE_01_collision.DAE\n'}
+[2.473011] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookE_01/model.config\n'}
+[2.474005] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopCeiling_01\n'}
+[2.475267] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopCeiling_01/materials\n'}
+[2.476921] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopCeiling_01/materials/textures\n'}
+[2.479091] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopCeiling_01/materials/textures/aws_RetailShopCeiling_01.png\n'}
+[2.479962] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopCeiling_01/model.sdf\n'}
+[2.480486] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopCeiling_01/meshes\n'}
+[2.481688] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopCeiling_01/meshes/aws_RetailShopCeiling_01_collision.DAE\n'}
+[2.482612] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopCeiling_01/meshes/aws_RetailShopCeiling_01_visual.DAE\n'}
+[2.483460] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopCeiling_01/model.config\n'}
+[2.484085] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Computer_01\n'}
+[2.485292] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Computer_01/materials\n'}
+[2.486051] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Computer_01/materials/textures\n'}
+[2.486568] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Computer_01/materials/textures/aws_Computer_01.png\n'}
+[2.486946] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Computer_01/model.sdf\n'}
+[2.487297] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Computer_01/meshes\n'}
+[2.487632] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Computer_01/meshes/aws_Computer_01_visual.DAE\n'}
+[2.487964] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Computer_01/meshes/aws_Computer_01_collision.DAE\n'}
+[2.488426] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Computer_01/model.config\n'}
+[2.488938] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopFloor_01\n'}
+[2.489361] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopFloor_01/materials\n'}
+[2.491142] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopFloor_01/materials/textures\n'}
+[2.492367] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopFloor_01/materials/textures/aws_RetailShopFloor_01.png\n'}
+[2.493992] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopFloor_01/model.sdf\n'}
+[2.495210] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopFloor_01/meshes\n'}
+[2.496632] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopFloor_01/meshes/aws_RetailShopFloor_01_visual.DAE\n'}
+[2.498347] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopFloor_01/meshes/aws_RetailShopFloor_01_collision.DAE\n'}
+[2.499604] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopFloor_01/model.config\n'}
+[2.500774] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Tablet_01\n'}
+[2.502050] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Tablet_01/materials\n'}
+[2.503288] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Tablet_01/materials/textures\n'}
+[2.504326] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Tablet_01/materials/textures/aws_Tablet_01_nologo.png\n'}
+[2.505120] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Tablet_01/model.sdf\n'}
+[2.505600] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Tablet_01/meshes\n'}
+[2.506682] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Tablet_01/meshes/aws_Tablet_01_collision.DAE\n'}
+[2.507948] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Tablet_01/meshes/aws_Tablet_01_visual.DAE\n'}
+[2.509196] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Tablet_01/model.config\n'}
+[2.510407] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnA_01\n'}
+[2.511532] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnA_01/materials\n'}
+[2.512699] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnA_01/materials/textures\n'}
+[2.513905] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnA_01/materials/textures/aws_ColumnA_01.png\n'}
+[2.514925] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnA_01/model.sdf\n'}
+[2.515969] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnA_01/meshes\n'}
+[2.516463] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnA_01/meshes/aws_ColumnA_01_collision.DAE\n'}
+[2.516986] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnA_01/meshes/aws_ColumnA_01_visual.DAE\n'}
+[2.517426] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ColumnA_01/model.config\n'}
+[2.517997] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Horologe_01\n'}
+[2.518445] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Horologe_01/materials\n'}
+[2.518900] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Horologe_01/materials/textures\n'}
+[2.519465] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Horologe_01/materials/textures/aws_Horologe_01.png\n'}
+[2.520003] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Horologe_01/model.sdf\n'}
+[2.520841] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Horologe_01/meshes\n'}
+[2.522646] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Horologe_01/meshes/aws_Horologe_01_visual.DAE\n'}
+[2.523931] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Horologe_01/meshes/aws_Horologe_01_collision.DAE\n'}
+[2.525160] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Horologe_01/model.config\n'}
+[2.525732] (-) TimerEvent: {}
+[2.527120] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookA_01\n'}
+[2.528122] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookA_01/materials\n'}
+[2.529199] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookA_01/materials/textures\n'}
+[2.530077] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookA_01/materials/textures/aws_BookA_01.png\n'}
+[2.530953] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookA_01/model.sdf\n'}
+[2.532405] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookA_01/meshes\n'}
+[2.534258] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookA_01/meshes/aws_BookA_01_collision.DAE\n'}
+[2.535319] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookA_01/meshes/aws_BookA_01_visual.DAE\n'}
+[2.536676] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookA_01/model.config\n'}
+[2.537173] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/TurtlebotArena\n'}
+[2.537758] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/TurtlebotArena/model.sdf\n'}
+[2.538276] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/TurtlebotArena/meshes\n'}
+[2.538794] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/TurtlebotArena/meshes/hexagon.dae\n'}
+[2.539215] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/TurtlebotArena/meshes/wall.dae\n'}
+[2.539710] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/TurtlebotArena/model.config\n'}
+[2.540116] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ShopWindow_01\n'}
+[2.540677] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ShopWindow_01/materials\n'}
+[2.541174] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ShopWindow_01/materials/textures\n'}
+[2.541607] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ShopWindow_01/materials/textures/aws_ShopWindow_01.png\n'}
+[2.542178] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ShopWindow_01/model.sdf\n'}
+[2.542653] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ShopWindow_01/meshes\n'}
+[2.543414] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ShopWindow_01/meshes/aws_ShopWindow_01_collision.DAE\n'}
+[2.544860] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ShopWindow_01/meshes/aws_ShopWindow_01_visual.DAE\n'}
+[2.545916] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ShopWindow_01/model.config\n'}
+[2.546963] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookD_01\n'}
+[2.548167] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookD_01/materials\n'}
+[2.549759] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookD_01/materials/textures\n'}
+[2.551307] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookD_01/materials/textures/aws_BookD_01.png\n'}
+[2.552468] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookD_01/model.sdf\n'}
+[2.553671] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookD_01/meshes\n'}
+[2.554951] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookD_01/meshes/aws_BookD_01_collision.DAE\n'}
+[2.556230] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookD_01/meshes/aws_BookD_01_visual.DAE\n'}
+[2.557457] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookD_01/model.config\n'}
+[2.558683] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_LightA_01\n'}
+[2.560149] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_LightA_01/materials\n'}
+[2.561258] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_LightA_01/materials/textures\n'}
+[2.562442] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_LightA_01/materials/textures/aws_LightA_01.png\n'}
+[2.563777] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_LightA_01/model.sdf\n'}
+[2.564908] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_LightA_01/meshes\n'}
+[2.566009] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_LightA_01/meshes/aws_LightA_01_collision.DAE\n'}
+[2.567408] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_LightA_01/meshes/aws_LightA_01_visual.DAE\n'}
+[2.568283] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_LightA_01/model.config\n'}
+[2.569140] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Spotlight_01\n'}
+[2.569741] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Spotlight_01/materials\n'}
+[2.570160] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Spotlight_01/materials/textures\n'}
+[2.570705] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Spotlight_01/materials/textures/aws_SpotlightDiffuse_01.png\n'}
+[2.571266] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Spotlight_01/model.sdf\n'}
+[2.571785] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Spotlight_01/meshes\n'}
+[2.572178] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Spotlight_01/meshes/aws_spotlight_01_visual.DAE\n'}
+[2.572956] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Spotlight_01/meshes/aws_spotlight_01_collision.DAE\n'}
+[2.573993] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Spotlight_01/model.config\n'}
+[2.574678] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerSmall_01\n'}
+[2.575177] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerSmall_01/materials\n'}
+[2.576092] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerSmall_01/materials/textures\n'}
+[2.576771] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerSmall_01/materials/textures/aws_SmartSpeakerSmall_01.png\n'}
+[2.577310] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerSmall_01/model.sdf\n'}
+[2.578645] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerSmall_01/meshes\n'}
+[2.580239] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerSmall_01/meshes/aws_SmartSpeakerSmall_01_visual.DAE\n'}
+[2.581772] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerSmall_01/meshes/aws_SmartSpeakerSmall_01_collision.DAE\n'}
+[2.583045] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerSmall_01/model.config\n'}
+[2.584229] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Bicycle_01\n'}
+[2.585646] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Bicycle_01/materials\n'}
+[2.586974] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Bicycle_01/materials/textures\n'}
+[2.588562] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Bicycle_01/materials/textures/aws_Bicycle_01.png\n'}
+[2.589867] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Bicycle_01/model.sdf\n'}
+[2.590975] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Bicycle_01/meshes\n'}
+[2.592430] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Bicycle_01/meshes/aws_Bicycle_01_collision.DAE\n'}
+[2.593839] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Bicycle_01/meshes/aws_Bicycle_01_visual.DAE\n'}
+[2.594651] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_Bicycle_01/model.config\n'}
+[2.596053] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskB_01\n'}
+[2.597462] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskB_01/materials\n'}
+[2.598640] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskB_01/materials/textures\n'}
+[2.599401] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskB_01/materials/textures/aws_DeskB_01.png\n'}
+[2.599831] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskB_01/model.sdf\n'}
+[2.600240] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskB_01/meshes\n'}
+[2.600685] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskB_01/meshes/aws_DeskB_01_visual.DAE\n'}
+[2.601139] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskB_01/meshes/aws_DeskB_01_collision.DAE\n'}
+[2.601604] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskB_01/model.config\n'}
+[2.602064] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ChairB_01\n'}
+[2.603070] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ChairB_01/materials\n'}
+[2.604312] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ChairB_01/materials/textures\n'}
+[2.605855] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ChairB_01/materials/textures/aws_ChairB_01.png\n'}
+[2.607075] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ChairB_01/model.sdf\n'}
+[2.608139] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ChairB_01/meshes\n'}
+[2.609514] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ChairB_01/meshes/aws_ChairB_01_visual.DAE\n'}
+[2.610627] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ChairB_01/meshes/aws_ChairB_01_collision.DAE\n'}
+[2.611546] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_ChairB_01/model.config\n'}
+[2.612552] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfA_01\n'}
+[2.613574] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfA_01/materials\n'}
+[2.615014] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfA_01/materials/textures\n'}
+[2.616259] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfA_01/materials/textures/aws_BookshelfA_03.png\n'}
+[2.617104] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfA_01/materials/textures/aws_BookshelfA_01.png\n'}
+[2.617545] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfA_01/materials/textures/aws_BookshelfA_02.png\n'}
+[2.617978] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfA_01/model.sdf\n'}
+[2.618361] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfA_01/meshes\n'}
+[2.618744] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_collision.DAE\n'}
+[2.619156] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_visual.DAE\n'}
+[2.619780] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfA_01/model.config\n'}
+[2.620203] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DoorB_01\n'}
+[2.620684] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DoorB_01/materials\n'}
+[2.621135] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DoorB_01/materials/textures\n'}
+[2.621671] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DoorB_01/materials/textures/aws_DoorB_01.png\n'}
+[2.622131] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DoorB_01/model.sdf\n'}
+[2.622907] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DoorB_01/meshes\n'}
+[2.624366] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DoorB_01/meshes/aws_DoorB_01_collision.DAE\n'}
+[2.625657] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DoorB_01/meshes/aws_DoorB_01_visual.DAE\n'}
+[2.626201] (-) TimerEvent: {}
+[2.627511] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DoorB_01/model.config\n'}
+[2.628250] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskA_01\n'}
+[2.629499] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskA_01/materials\n'}
+[2.630777] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskA_01/materials/textures\n'}
+[2.632254] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskA_01/materials/textures/aws_DeskA_03.png\n'}
+[2.633588] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskA_01/materials/textures/aws_DeskA_01.png\n'}
+[2.634785] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskA_01/materials/textures/aws_DeskA_02.png\n'}
+[2.635945] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskA_01/model.sdf\n'}
+[2.637002] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskA_01/meshes\n'}
+[2.638530] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_collision.DAE\n'}
+[2.639719] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_visual.DAE\n'}
+[2.640918] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_DeskA_01/model.config\n'}
+[2.642143] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookstoreLogo_01\n'}
+[2.643383] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookstoreLogo_01/materials\n'}
+[2.644190] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookstoreLogo_01/materials/textures\n'}
+[2.645390] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookstoreLogo_01/materials/textures/aws_BookstoreLogo_01.png\n'}
+[2.646335] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookstoreLogo_01/model.sdf\n'}
+[2.647260] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookstoreLogo_01/meshes\n'}
+[2.647839] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookstoreLogo_01/meshes/aws_BookstoreLogo_01_collision.DAE\n'}
+[2.648886] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookstoreLogo_01/meshes/aws_BookstoreLogo_01_visual.DAE\n'}
+[2.650255] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookstoreLogo_01/model.config\n'}
+[2.651482] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerTall_01\n'}
+[2.652439] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerTall_01/materials\n'}
+[2.653301] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerTall_01/materials/textures\n'}
+[2.654122] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerTall_01/materials/textures/aws_SmartSpeakerTall_01.png\n'}
+[2.654891] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerTall_01/model.sdf\n'}
+[2.655582] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerTall_01/meshes\n'}
+[2.656657] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerTall_01/meshes/aws_SmartSpeakerTall_01_collision.DAE\n'}
+[2.657553] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerTall_01/meshes/aws_SmartSpeakerTall_01_visual.DAE\n'}
+[2.658214] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_SmartSpeakerTall_01/model.config\n'}
+[2.659085] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookB_01\n'}
+[2.660067] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookB_01/materials\n'}
+[2.661644] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookB_01/materials/textures\n'}
+[2.662533] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookB_01/materials/textures/aws_BookB_01.png\n'}
+[2.663594] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookB_01/materials/textures/aws_BookB_02.png\n'}
+[2.664640] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookB_01/model.sdf\n'}
+[2.665612] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookB_01/meshes\n'}
+[2.666588] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookB_01/meshes/aws_BookB_01_collision.DAE\n'}
+[2.667519] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookB_01/meshes/aws_BookB_01_visual.DAE\n'}
+[2.668573] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookB_01/model.config\n'}
+[2.669395] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfB_01\n'}
+[2.670722] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfB_01/materials\n'}
+[2.671589] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfB_01/materials/textures\n'}
+[2.672391] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfB_01/materials/textures/aws_BookshelfB_02.png\n'}
+[2.673193] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfB_01/materials/textures/aws_BookshelfB_01.png\n'}
+[2.674002] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfB_01/model.sdf\n'}
+[2.674726] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfB_01/meshes\n'}
+[2.675707] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_collision.DAE\n'}
+[2.676683] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE\n'}
+[2.677768] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfB_01/model.config\n'}
+[2.678830] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookC_01\n'}
+[2.679662] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookC_01/materials\n'}
+[2.680956] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookC_01/materials/textures\n'}
+[2.681822] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookC_01/materials/textures/aws_BookC_01.png\n'}
+[2.682291] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookC_01/model.sdf\n'}
+[2.682706] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookC_01/meshes\n'}
+[2.683141] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookC_01/meshes/aws_BookC_01_visual.DAE\n'}
+[2.684079] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookC_01/meshes/aws_BookC_01_collision.DAE\n'}
+[2.685076] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookC_01/model.config\n'}
+[2.686001] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopWall_01\n'}
+[2.686585] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopWall_01/materials\n'}
+[2.687158] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopWall_01/materials/textures\n'}
+[2.687938] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopWall_01/materials/textures/aws_RetailShopWall_01.png\n'}
+[2.688781] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopWall_01/model.sdf\n'}
+[2.689694] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopWall_01/meshes\n'}
+[2.694948] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopWall_01/meshes/aws_RetailShopWall_01_collision.DAE\n'}
+[2.695935] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopWall_01/meshes/aws_RetailShopWall_01_visual.DAE\n'}
+[2.697479] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_RetailShopWall_01/model.config\n'}
+[2.698779] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfC_01\n'}
+[2.701103] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfC_01/materials\n'}
+[2.702719] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfC_01/materials/textures\n'}
+[2.704395] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfC_01/materials/textures/aws_BookshelfC_01.png\n'}
+[2.706246] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfC_01/model.sdf\n'}
+[2.708294] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfC_01/meshes\n'}
+[2.710034] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfC_01/meshes/aws_BookshelfC_01_visual.DAE\n'}
+[2.711650] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfC_01/meshes/aws_BookshelfC_01_collision.DAE\n'}
+[2.713683] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/models/aws_robomaker_retail_BookshelfC_01/model.config\n'}
+[2.715368] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes\n'}
+[2.717093] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/lidar.STL\n'}
+[2.718861] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/front_castor_swivel.STL\n'}
+[2.720521] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/right_wheel.STL\n'}
+[2.722185] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/right_ultrasonic.STL\n'}
+[2.723871] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/rear_castor_swivel.STL\n'}
+[2.725433] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/rear_ultrasonic.STL\n'}
+[2.726839] (-) TimerEvent: {}
+[2.727905] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/front_castor_wheel.STL\n'}
+[2.729714] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/tof.STL\n'}
+[2.731154] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/rear_castor_wheel.STL\n'}
+[2.732550] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/imu.STL\n'}
+[2.734041] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/base_link.STL\n'}
+[2.735470] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/left_ultrasonic.STL\n'}
+[2.736725] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/front_ultrasonic.STL\n'}
+[2.737989] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz//meshes/left_wheel.STL\n'}
+[2.739174] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/lib/sam_bot_nav2_gz/reach_goal.py\n'}
+[2.741038] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/lib/sam_bot_nav2_gz/follow_waypoints.py\n'}
+[2.742865] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/ament_index/resource_index/package_run_dependencies/sam_bot_nav2_gz\n'}
+[2.744544] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/ament_index/resource_index/parent_prefix_path/sam_bot_nav2_gz\n'}
+[2.746093] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/ament_prefix_path.sh\n'}
+[2.747422] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/ament_prefix_path.dsv\n'}
+[2.748681] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/path.sh\n'}
+[2.750284] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/environment/path.dsv\n'}
+[2.751659] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.bash\n'}
+[2.753017] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.sh\n'}
+[2.754279] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.zsh\n'}
+[2.755786] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/local_setup.dsv\n'}
+[2.759491] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Installing: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.dsv\n'}
+[2.762096] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/ament_index/resource_index/packages/sam_bot_nav2_gz\n'}
+[2.764411] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/cmake/sam_bot_nav2_gzConfig.cmake\n'}
+[2.767331] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/cmake/sam_bot_nav2_gzConfig-version.cmake\n'}
+[2.770816] (sam_bot_nav2_gz) StdoutLine: {'line': b'-- Up-to-date: /home/jo/agatha/install/sam_bot_nav2_gz/share/sam_bot_nav2_gz/package.xml\n'}
+[2.780881] (sam_bot_nav2_gz) CommandEnded: {'returncode': 0}
+[2.827111] (-) TimerEvent: {}
+[2.872127] (sam_bot_nav2_gz) JobEnded: {'identifier': 'sam_bot_nav2_gz', 'rc': 0}
+[2.927255] (-) TimerEvent: {}
+[3.028248] (-) TimerEvent: {}
+[3.129461] (-) TimerEvent: {}
+[3.230476] (-) TimerEvent: {}
+[3.331724] (-) TimerEvent: {}
+[3.432514] (-) TimerEvent: {}
+[3.533265] (-) TimerEvent: {}
+[3.634037] (-) TimerEvent: {}
+[3.734984] (-) TimerEvent: {}
+[3.818756] (icm20948_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/icm20948_ros2', 'build', '--build-base', '/home/jo/agatha/build/icm20948_ros2/build', 'install', '--record', '/home/jo/agatha/build/icm20948_ros2/install.log', '--install-scripts', '$base/lib/icm20948_ros2', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jo/agatha/src/icm20948-ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jo', 'SSH_CLIENT': '172.20.10.4 53790 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jo/agatha/install/dstar_lite_planner/lib:/home/jo/agatha/install/apf_controller/lib:/home/jo/agatha/install/agatha_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jo', 'OLDPWD': '/home/jo', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jo/agatha/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jo/bin:/usr/local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/icm20948_ros2:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/jo/agatha/build/icm20948_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.4 53790 172.20.10.2 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jo/agatha/build/icm20948_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jo/agatha/install/sam_bot_nav2_gz:/home/jo/agatha/install/dstar_lite_planner:/home/jo/agatha/install/apf_controller:/home/jo/agatha/install/agatha_hardware'}, 'shell': False}
+[3.835226] (-) TimerEvent: {}
+[3.936569] (-) TimerEvent: {}
+[4.038366] (-) TimerEvent: {}
+[4.140057] (-) TimerEvent: {}
+[4.241729] (-) TimerEvent: {}
+[4.343314] (-) TimerEvent: {}
+[4.445131] (-) TimerEvent: {}
+[4.546662] (-) TimerEvent: {}
+[4.648322] (-) TimerEvent: {}
+[4.749987] (-) TimerEvent: {}
+[4.851570] (-) TimerEvent: {}
+[4.953202] (-) TimerEvent: {}
+[5.054949] (-) TimerEvent: {}
+[5.156950] (-) TimerEvent: {}
+[5.258716] (-) TimerEvent: {}
+[5.360521] (-) TimerEvent: {}
+[5.400322] (icm20948_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[5.403957] (icm20948_ros2) StdoutLine: {'line': b'writing ../../build/icm20948_ros2/icm20948_ros2.egg-info/PKG-INFO\n'}
+[5.410781] (icm20948_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/icm20948_ros2/icm20948_ros2.egg-info/dependency_links.txt\n'}
+[5.412057] (icm20948_ros2) StdoutLine: {'line': b'writing entry points to ../../build/icm20948_ros2/icm20948_ros2.egg-info/entry_points.txt\n'}
+[5.413410] (icm20948_ros2) StdoutLine: {'line': b'writing requirements to ../../build/icm20948_ros2/icm20948_ros2.egg-info/requires.txt\n'}
+[5.414654] (icm20948_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/icm20948_ros2/icm20948_ros2.egg-info/top_level.txt\n'}
+[5.424273] (icm20948_ros2) StdoutLine: {'line': b"reading manifest file '../../build/icm20948_ros2/icm20948_ros2.egg-info/SOURCES.txt'\n"}
+[5.426134] (icm20948_ros2) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.429738] (icm20948_ros2) StdoutLine: {'line': b"writing manifest file '../../build/icm20948_ros2/icm20948_ros2.egg-info/SOURCES.txt'\n"}
+[5.431123] (icm20948_ros2) StdoutLine: {'line': b'running build\n'}
+[5.432037] (icm20948_ros2) StdoutLine: {'line': b'running build_py\n'}
+[5.433088] (icm20948_ros2) StdoutLine: {'line': b'running install\n'}
+[5.434342] (icm20948_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[5.440915] (icm20948_ros2) StdoutLine: {'line': b'running install_data\n'}
+[5.442107] (icm20948_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.451016] (icm20948_ros2) StdoutLine: {'line': b"removing '/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages/icm20948_ros2-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[5.454152] (icm20948_ros2) StdoutLine: {'line': b'Copying ../../build/icm20948_ros2/icm20948_ros2.egg-info to /home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages/icm20948_ros2-0.0.1-py3.10.egg-info\n'}
+[5.460811] (-) TimerEvent: {}
+[5.464218] (icm20948_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[5.553700] (icm20948_ros2) StdoutLine: {'line': b'Installing imu_node script to /home/jo/agatha/install/icm20948_ros2/lib/icm20948_ros2\n'}
+[5.555694] (icm20948_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/jo/agatha/build/icm20948_ros2/install.log'\n"}
+[5.561136] (-) TimerEvent: {}
+[5.664147] (-) TimerEvent: {}
+[5.694243] (icm20948_ros2) CommandEnded: {'returncode': 0}
+[5.737152] (icm20948_ros2) JobEnded: {'identifier': 'icm20948_ros2', 'rc': 0}
+[5.764345] (-) TimerEvent: {}
+[5.865125] (-) TimerEvent: {}
+[5.965926] (-) TimerEvent: {}
+[6.066751] (-) TimerEvent: {}
+[6.167546] (-) TimerEvent: {}
+[6.268791] (-) TimerEvent: {}
+[6.370198] (-) TimerEvent: {}
+[6.471033] (-) TimerEvent: {}
+[6.571852] (-) TimerEvent: {}
+[6.672778] (-) TimerEvent: {}
+[6.773655] (-) TimerEvent: {}
+[6.874451] (-) TimerEvent: {}
+[6.975249] (-) TimerEvent: {}
+[7.076028] (-) TimerEvent: {}
+[7.176880] (-) TimerEvent: {}
+[7.277704] (-) TimerEvent: {}
+[7.378517] (-) TimerEvent: {}
+[7.479338] (-) TimerEvent: {}
+[7.580205] (-) TimerEvent: {}
+[7.681053] (-) TimerEvent: {}
+[7.781845] (-) TimerEvent: {}
+[7.882667] (-) TimerEvent: {}
+[7.983528] (-) TimerEvent: {}
+[8.084427] (-) TimerEvent: {}
+[8.185224] (-) TimerEvent: {}
+[8.286013] (-) TimerEvent: {}
+[8.386814] (-) TimerEvent: {}
+[8.487650] (-) TimerEvent: {}
+[8.588569] (-) TimerEvent: {}
+[8.689508] (-) TimerEvent: {}
+[8.790328] (-) TimerEvent: {}
+[8.891153] (-) TimerEvent: {}
+[8.992110] (-) TimerEvent: {}
+[9.093085] (-) TimerEvent: {}
+[9.193918] (-) TimerEvent: {}
+[9.294983] (-) TimerEvent: {}
+[9.395822] (-) TimerEvent: {}
+[9.496681] (-) TimerEvent: {}
+[9.597470] (-) TimerEvent: {}
+[9.698299] (-) TimerEvent: {}
+[9.799135] (-) TimerEvent: {}
+[9.899989] (-) TimerEvent: {}
+[10.000869] (-) TimerEvent: {}
+[10.101973] (-) TimerEvent: {}
+[10.202785] (-) TimerEvent: {}
+[10.303609] (-) TimerEvent: {}
+[10.404439] (-) TimerEvent: {}
+[10.505339] (-) TimerEvent: {}
+[10.606162] (-) TimerEvent: {}
+[10.707005] (-) TimerEvent: {}
+[10.807823] (-) TimerEvent: {}
+[10.908682] (-) TimerEvent: {}
+[11.009551] (-) TimerEvent: {}
+[11.110357] (-) TimerEvent: {}
+[11.211182] (-) TimerEvent: {}
+[11.312052] (-) TimerEvent: {}
+[11.412919] (-) TimerEvent: {}
+[11.513732] (-) TimerEvent: {}
+[11.614572] (-) TimerEvent: {}
+[11.715374] (-) TimerEvent: {}
+[11.816199] (-) TimerEvent: {}
+[11.917053] (-) TimerEvent: {}
+[12.017865] (-) TimerEvent: {}
+[12.118684] (-) TimerEvent: {}
+[12.219522] (-) TimerEvent: {}
+[12.320349] (-) TimerEvent: {}
+[12.421242] (-) TimerEvent: {}
+[12.522066] (-) TimerEvent: {}
+[12.622872] (-) TimerEvent: {}
+[12.723686] (-) TimerEvent: {}
+[12.824475] (-) TimerEvent: {}
+[12.925316] (-) TimerEvent: {}
+[13.026126] (-) TimerEvent: {}
+[13.126971] (-) TimerEvent: {}
+[13.227770] (-) TimerEvent: {}
+[13.328657] (-) TimerEvent: {}
+[13.429453] (-) TimerEvent: {}
+[13.530320] (-) TimerEvent: {}
+[13.631131] (-) TimerEvent: {}
+[13.731980] (-) TimerEvent: {}
+[13.832778] (-) TimerEvent: {}
+[13.933608] (-) TimerEvent: {}
+[14.034436] (-) TimerEvent: {}
+[14.135250] (-) TimerEvent: {}
+[14.236081] (-) TimerEvent: {}
+[14.336961] (-) TimerEvent: {}
+[14.437825] (-) TimerEvent: {}
+[14.538646] (-) TimerEvent: {}
+[14.639506] (-) TimerEvent: {}
+[14.740307] (-) TimerEvent: {}
+[14.841162] (-) TimerEvent: {}
+[14.941977] (-) TimerEvent: {}
+[15.042828] (-) TimerEvent: {}
+[15.143708] (-) TimerEvent: {}
+[15.244554] (-) TimerEvent: {}
+[15.345395] (-) TimerEvent: {}
+[15.446204] (-) TimerEvent: {}
+[15.547044] (-) TimerEvent: {}
+[15.647961] (-) TimerEvent: {}
+[15.749072] (-) TimerEvent: {}
+[15.849882] (-) TimerEvent: {}
+[15.950712] (-) TimerEvent: {}
+[16.051534] (-) TimerEvent: {}
+[16.152368] (-) TimerEvent: {}
+[16.253227] (-) TimerEvent: {}
+[16.354045] (-) TimerEvent: {}
+[16.454966] (-) TimerEvent: {}
+[16.538582] (apf_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jo/agatha/src/nav2_ign_example/src/apf_controller/src/apf_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void apf_controller::APFController::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.539448] (apf_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jo/agatha/src/nav2_ign_example/src/apf_controller/src/apf_controller.cpp:39:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_radius_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.540083] (apf_controller) StderrLine: {'line': b'   39 |   \x1b[01;31m\x1b[Krobot_radius_\x1b[m\x1b[K = node->get_parameter(name + ".robot_radius").as_double();\n'}
+[16.540661] (apf_controller) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.555203] (-) TimerEvent: {}
+[16.584971] (apf_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jo/agatha/src/nav2_ign_example/src/apf_controller/src/apf_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kapf_controller::APFController::Force apf_controller::APFController::repulsiveForce()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.585688] (apf_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jo/agatha/src/nav2_ign_example/src/apf_controller/src/apf_controller.cpp:196:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krobot_radius_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.586220] (apf_controller) StderrLine: {'line': b'  196 |       double dist = std::max(raw_dist - \x1b[01;31m\x1b[Krobot_radius_\x1b[m\x1b[K, 0.01);\n'}
+[16.586696] (apf_controller) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.655412] (-) TimerEvent: {}
+[16.756242] (-) TimerEvent: {}
+[16.857184] (-) TimerEvent: {}
+[16.958006] (-) TimerEvent: {}
+[17.058837] (-) TimerEvent: {}
+[17.159635] (-) TimerEvent: {}
+[17.260418] (-) TimerEvent: {}
+[17.361269] (-) TimerEvent: {}
+[17.462075] (-) TimerEvent: {}
+[17.562884] (-) TimerEvent: {}
+[17.663703] (-) TimerEvent: {}
+[17.764571] (-) TimerEvent: {}
+[17.865453] (-) TimerEvent: {}
+[17.966304] (-) TimerEvent: {}
+[18.067132] (-) TimerEvent: {}
+[18.167934] (-) TimerEvent: {}
+[18.268963] (-) TimerEvent: {}
+[18.370776] (-) TimerEvent: {}
+[18.471628] (-) TimerEvent: {}
+[18.572435] (-) TimerEvent: {}
+[18.673282] (-) TimerEvent: {}
+[18.774129] (-) TimerEvent: {}
+[18.874953] (-) TimerEvent: {}
+[18.975864] (-) TimerEvent: {}
+[19.076773] (-) TimerEvent: {}
+[19.177581] (-) TimerEvent: {}
+[19.278403] (-) TimerEvent: {}
+[19.379253] (-) TimerEvent: {}
+[19.480064] (-) TimerEvent: {}
+[19.580887] (-) TimerEvent: {}
+[19.681688] (-) TimerEvent: {}
+[19.782616] (-) TimerEvent: {}
+[19.883755] (-) TimerEvent: {}
+[19.984542] (-) TimerEvent: {}
+[20.085447] (-) TimerEvent: {}
+[20.124825] (apf_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/apf_controller.dir/build.make:76: CMakeFiles/apf_controller.dir/src/apf_controller.cpp.o] Error 1\n'}
+[20.125786] (apf_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/apf_controller.dir/all] Error 2\n'}
+[20.126676] (apf_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[20.132786] (apf_controller) CommandEnded: {'returncode': 2}
+[20.174563] (apf_controller) JobEnded: {'identifier': 'apf_controller', 'rc': 2}
+[20.186025] (-) TimerEvent: {}
+[20.187586] (-) EventReactorShutdown: {}

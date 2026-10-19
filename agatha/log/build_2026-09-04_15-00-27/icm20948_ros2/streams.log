@@ -1,0 +1,22 @@
+[4.901s] Invoking command in '/home/jo/agatha/src/icm20948-ros2': PYTHONPATH=/home/jo/agatha/build/icm20948_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/icm20948_ros2 build --build-base /home/jo/agatha/build/icm20948_ros2/build install --record /home/jo/agatha/build/icm20948_ros2/install.log --install-scripts $base/lib/icm20948_ros2 --single-version-externally-managed install_data
+[6.422s] running egg_info
+[6.426s] writing ../../build/icm20948_ros2/icm20948_ros2.egg-info/PKG-INFO
+[6.433s] writing dependency_links to ../../build/icm20948_ros2/icm20948_ros2.egg-info/dependency_links.txt
+[6.435s] writing entry points to ../../build/icm20948_ros2/icm20948_ros2.egg-info/entry_points.txt
+[6.437s] writing requirements to ../../build/icm20948_ros2/icm20948_ros2.egg-info/requires.txt
+[6.437s] writing top-level names to ../../build/icm20948_ros2/icm20948_ros2.egg-info/top_level.txt
+[6.448s] reading manifest file '../../build/icm20948_ros2/icm20948_ros2.egg-info/SOURCES.txt'
+[6.451s] adding license file 'LICENSE'
+[6.454s] writing manifest file '../../build/icm20948_ros2/icm20948_ros2.egg-info/SOURCES.txt'
+[6.455s] running build
+[6.455s] running build_py
+[6.457s] running install
+[6.458s] running install_lib
+[6.466s] running install_data
+[6.467s] running install_egg_info
+[6.477s] removing '/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages/icm20948_ros2-0.0.1-py3.10.egg-info' (and everything under it)
+[6.480s] Copying ../../build/icm20948_ros2/icm20948_ros2.egg-info to /home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages/icm20948_ros2-0.0.1-py3.10.egg-info
+[6.491s] running install_scripts
+[6.596s] Installing imu_node script to /home/jo/agatha/install/icm20948_ros2/lib/icm20948_ros2
+[6.598s] writing list of installed files to '/home/jo/agatha/build/icm20948_ros2/install.log'
+[6.758s] Invoked command in '/home/jo/agatha/src/icm20948-ros2' returned '0': PYTHONPATH=/home/jo/agatha/build/icm20948_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jo/agatha/install/icm20948_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/icm20948_ros2 build --build-base /home/jo/agatha/build/icm20948_ros2/build install --record /home/jo/agatha/build/icm20948_ros2/install.log --install-scripts $base/lib/icm20948_ros2 --single-version-externally-managed install_data

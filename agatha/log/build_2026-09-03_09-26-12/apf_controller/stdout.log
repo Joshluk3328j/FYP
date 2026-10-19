@@ -1,0 +1,25 @@
+[100%] Built target apf_controller
+-- Install configuration: ""
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/plugin.xml
+-- Up-to-date: /home/jo/agatha/install/apf_controller/lib/libapf_controller.so
+-- Up-to-date: /home/jo/agatha/install/apf_controller/include
+-- Up-to-date: /home/jo/agatha/install/apf_controller/include/apf_controller
+-- Up-to-date: /home/jo/agatha/install/apf_controller/include/apf_controller/apf_controller.hpp
+-- Up-to-date: /home/jo/agatha/install/apf_controller/include/apf_controller/apf_controller copy.hpp
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/plugin.xml
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/package_run_dependencies/apf_controller
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/parent_prefix_path/apf_controller
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/path.sh
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/path.dsv
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.bash
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.sh
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.zsh
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.dsv
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/package.dsv
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/packages/apf_controller
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/apf_controller
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/cmake/apf_controllerConfig.cmake
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/cmake/apf_controllerConfig-version.cmake
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/package.xml

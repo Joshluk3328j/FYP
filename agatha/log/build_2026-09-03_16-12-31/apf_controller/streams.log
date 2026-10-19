@@ -1,0 +1,47 @@
+[0.136s] Invoking command in '/home/jo/agatha/build/apf_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/apf_controller -- -j4 -l4
+[0.664s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.716s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[2.070s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.095s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.149s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.226s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.327s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.614s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.630s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.786s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.619s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.432s] -- Configuring done
+[7.523s] -- Generating done
+[7.570s] -- Build files have been written to: /home/jo/agatha/build/apf_controller
+[7.733s] [35m[1mConsolidate compiler generated dependencies of target apf_controller[0m
+[8.006s] [ 50%] [32mBuilding CXX object CMakeFiles/apf_controller.dir/src/apf_controller.cpp.o[0m
+[42.492s] [100%] [32m[1mLinking CXX shared library libapf_controller.so[0m
+[49.335s] [100%] Built target apf_controller
+[49.479s] Invoked command in '/home/jo/agatha/build/apf_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/apf_controller -- -j4 -l4
+[49.481s] Invoking command in '/home/jo/agatha/build/apf_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/apf_controller
+[49.571s] -- Install configuration: ""
+[49.572s] -- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/plugin.xml
+[49.581s] -- Installing: /home/jo/agatha/install/apf_controller/lib/libapf_controller.so
+[49.589s] -- Set runtime path of "/home/jo/agatha/install/apf_controller/lib/libapf_controller.so" to ""
+[49.590s] -- Up-to-date: /home/jo/agatha/install/apf_controller/include
+[49.592s] -- Up-to-date: /home/jo/agatha/install/apf_controller/include/apf_controller
+[49.603s] -- Up-to-date: /home/jo/agatha/install/apf_controller/include/apf_controller/apf_controller.hpp
+[49.604s] -- Up-to-date: /home/jo/agatha/install/apf_controller/include/apf_controller/apf_controller copy.hpp
+[49.604s] -- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/plugin.xml
+[49.605s] -- Up-to-date: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/package_run_dependencies/apf_controller
+[49.606s] -- Installing: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/parent_prefix_path/apf_controller
+[49.618s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/ament_prefix_path.sh
+[49.620s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/ament_prefix_path.dsv
+[49.622s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/path.sh
+[49.626s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/path.dsv
+[49.634s] -- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.bash
+[49.637s] -- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.sh
+[49.638s] -- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.zsh
+[49.639s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.dsv
+[49.644s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/package.dsv
+[49.645s] -- Up-to-date: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/packages/apf_controller
+[49.646s] -- Up-to-date: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/apf_controller
+[49.647s] -- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/cmake/apf_controllerConfig.cmake
+[49.654s] -- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/cmake/apf_controllerConfig-version.cmake
+[49.675s] -- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/package.xml
+[49.677s] Invoked command in '/home/jo/agatha/build/apf_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/apf_controller

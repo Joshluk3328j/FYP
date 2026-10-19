@@ -1,0 +1,96 @@
+# ekf_filter_node:
+#     ros__parameters:
+#         frequency: 30.0
+#         two_d_mode: true
+#         publish_acceleration: false
+#         publish_tf: true
+
+#         map_frame: map
+#         odom_frame: odom
+#         base_link_frame: base_footprint
+#         world_frame: odom
+
+#         odom0: /diff_drive_base_controller/odom
+#         # We only want X velocity and Yaw velocity from wheels
+#         odom0_config: [false, false, false,
+#                        false, false, false,
+#                        true,  false, false, # X velocity
+#                        false, false, true,  # Yaw velocity
+#                        false, false, false]
+#         odom0_differential: false # Keep false for wheel odom
+
+#         imu0: /imu/data
+#         # Ignore absolute orientation, use only angular velocity
+#         imu0_config: [false, false, false,
+#                       false, false, false, 
+#                       false, false, false,
+#                       false, false, true,  # ONLY take Yaw Velocity
+#                       false, false, false] # Set X accel to false
+#         imu0_differential: false
+#         # Add these to your imu0 section
+#         imu0_relative: true
+#         imu0_queue_size: 10
+#         imu0_remove_gravitational_acceleration: true
+
+
+ekf_filter_node:
+    ros__parameters:
+        # 1. General Settings
+        frequency: 30.0
+        two_d_mode: true
+        publish_acceleration: false
+        publish_tf: true
+
+        # 2. Frame Settings
+        map_frame: map
+        odom_frame: odom
+        base_link_frame: base_footprint
+        world_frame: odom
+
+        # 3. Wheel Odometry (odom0)
+        odom0: /diff_drive_base_controller/odom
+        odom0_config: [false, false, false, # x, y, z
+                       false, false, false, # roll, pitch, yaw
+                       true,  false, false, # x_vel, y_vel, z_vel
+                       false, false, true,  # roll_vel, pitch_vel, yaw_vel
+                       false, false, false] # x_accel, y_accel, z_accel
+        odom0_differential: false
+        odom0_queue_size: 10
+
+        # 4. IMU Data (imu0)
+        imu0: /imu/data
+        imu0_config: [false, false, false,
+                      false, false, false, 
+                      false, false, false,
+                      false, false, true,  # ONLY take Yaw Velocity (Z-gyro)
+                      false, false, false] # X-accel disabled to stop "shivering" drift
+        
+        imu0_differential: false
+        imu0_relative: true
+        imu0_queue_size: 10
+        imu0_remove_gravitational_acceleration: true
+
+        # 5. The "Drift Killer" Tuning
+        # This matrix represents how much we trust the growth of uncertainty.
+        # We increase the 12th value (Yaw Velocity) to make the EKF more 
+        # cautious about trusting the Gyro over long periods.
+        process_noise_covariance: [0.05, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                   0.0,  0.05, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                   0.0,  0.0,  0.06, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                   0.0,  0.0,  0.0,  0.03, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                   0.0,  0.0,  0.0,  0.0,  0.03, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                   0.0,  0.0,  0.0,  0.0,  0.0,  0.06, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.025,0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.025,0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.04, 0.0,  0.0,  0.0,  0.0,  0.0,  0.0,
+                                   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.01, 0.0,  0.0,  0.0,  0.0,  0.0,
+                                   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.01, 0.0,  0.0,  0.0,  0.0,
+                                   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.02, 0.0,  0.0,  0.0,
+                                   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.01, 0.0,  0.0,
+                                   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.01, 0.0,
+                                   0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.0,  0.015]
+
+        # 6. Rejection Thresholds
+        # If the IMU reports a rotation speed way higher than Agatha's motors 
+        # could possibly achieve, ignore it.
+        imu0_twist_rejection_threshold: 0.2

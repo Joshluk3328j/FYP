@@ -1,0 +1,7 @@
+<library path="dstar_lite_planner">
+  <class name="dstar_lite_planner/DStarLitePlanner"
+         type="dstar_lite_planner::DStarLitePlanner"
+         base_class_type="nav2_core::GlobalPlanner">
+    <description>D* Lite global planner plugin</description>
+  </class>
+</library>

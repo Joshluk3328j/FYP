@@ -1,0 +1,35 @@
+[0.131s] Invoking command in '/home/jo/agatha/build/agatha_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/agatha_hardware -- -j4 -l4
+[0.432s] [100%] Built target agatha_hardware
+[1.565s] Invoked command in '/home/jo/agatha/build/agatha_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/agatha_hardware -- -j4 -l4
+[1.606s] Invoking command in '/home/jo/agatha/build/agatha_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/agatha_hardware
+[1.643s] -- Install configuration: ""
+[1.644s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/agatha_hardware.xml
+[1.653s] -- Installing: /home/jo/agatha/install/agatha_hardware/lib/libagatha_hardware.so
+[1.797s] -- Set runtime path of "/home/jo/agatha/install/agatha_hardware/lib/libagatha_hardware.so" to ""
+[1.798s] -- Installing: /home/jo/agatha/install/agatha_hardware/include
+[1.798s] -- Installing: /home/jo/agatha/install/agatha_hardware/include/agatha_hardware
+[1.799s] -- Installing: /home/jo/agatha/install/agatha_hardware/include/agatha_hardware/diffbot_system.hpp
+[1.801s] -- Installing: /home/jo/agatha/install/agatha_hardware/include/agatha_hardware/diffbot_system copy.hpp
+[1.804s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/agatha_hardware.xml
+[1.806s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/library_path.sh
+[1.807s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/library_path.dsv
+[1.815s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/package_run_dependencies/agatha_hardware
+[1.821s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/parent_prefix_path/agatha_hardware
+[1.822s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/ament_prefix_path.sh
+[1.829s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/ament_prefix_path.dsv
+[1.830s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/path.sh
+[1.834s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/path.dsv
+[1.835s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.bash
+[1.842s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.sh
+[1.850s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.zsh
+[1.850s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.dsv
+[1.850s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.dsv
+[1.853s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/packages/agatha_hardware
+[1.862s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/agatha_hardware
+[1.869s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.869s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[1.872s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.873s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/agatha_hardwareConfig.cmake
+[1.874s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/agatha_hardwareConfig-version.cmake
+[1.878s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.xml
+[2.108s] Invoked command in '/home/jo/agatha/build/agatha_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/agatha_hardware

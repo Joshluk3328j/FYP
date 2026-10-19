@@ -1,0 +1,10 @@
+/home/jo/agatha/build/agatha_hardware/CMakeFiles/uninstall.dir
+/home/jo/agatha/build/agatha_hardware/CMakeFiles/agatha_hardware_uninstall.dir
+/home/jo/agatha/build/agatha_hardware/CMakeFiles/agatha_hardware.dir
+/home/jo/agatha/build/agatha_hardware/CMakeFiles/test.dir
+/home/jo/agatha/build/agatha_hardware/CMakeFiles/edit_cache.dir
+/home/jo/agatha/build/agatha_hardware/CMakeFiles/rebuild_cache.dir
+/home/jo/agatha/build/agatha_hardware/CMakeFiles/list_install_components.dir
+/home/jo/agatha/build/agatha_hardware/CMakeFiles/install.dir
+/home/jo/agatha/build/agatha_hardware/CMakeFiles/install/local.dir
+/home/jo/agatha/build/agatha_hardware/CMakeFiles/install/strip.dir

@@ -1,0 +1,11 @@
+[01m[K/home/jo/agatha/src/nav2_ign_example/src/apf_controller/src/apf_controller.cpp:[m[K In member function ‘[01m[Kvirtual void apf_controller::APFController::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[01m[K/home/jo/agatha/src/nav2_ign_example/src/apf_controller/src/apf_controller.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_radius_[m[K’ was not declared in this scope
+   39 |   [01;31m[Krobot_radius_[m[K = node->get_parameter(name + ".robot_radius").as_double();
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jo/agatha/src/nav2_ign_example/src/apf_controller/src/apf_controller.cpp:[m[K In member function ‘[01m[Kapf_controller::APFController::Force apf_controller::APFController::repulsiveForce()[m[K’:
+[01m[K/home/jo/agatha/src/nav2_ign_example/src/apf_controller/src/apf_controller.cpp:196:41:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_radius_[m[K’ was not declared in this scope
+  196 |       double dist = std::max(raw_dist - [01;31m[Krobot_radius_[m[K, 0.01);
+      |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/apf_controller.dir/build.make:76: CMakeFiles/apf_controller.dir/src/apf_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/apf_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

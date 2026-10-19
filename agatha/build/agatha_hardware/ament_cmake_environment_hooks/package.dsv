@@ -1,0 +1,4 @@
+source;share/agatha_hardware/local_setup.bash
+source;share/agatha_hardware/local_setup.dsv
+source;share/agatha_hardware/local_setup.sh
+source;share/agatha_hardware/local_setup.zsh

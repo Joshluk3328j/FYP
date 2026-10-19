@@ -1,0 +1,30 @@
+[0.119s] Invoking command in '/home/jo/agatha/build/apf_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/apf_controller -- -j4 -l4
+[0.460s] [100%] Built target apf_controller
+[1.579s] Invoked command in '/home/jo/agatha/build/apf_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/apf_controller -- -j4 -l4
+[1.590s] Invoking command in '/home/jo/agatha/build/apf_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/apf_controller
+[1.627s] -- Install configuration: ""
+[1.629s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/plugin.xml
+[1.641s] -- Installing: /home/jo/agatha/install/apf_controller/lib/libapf_controller.so
+[1.698s] -- Set runtime path of "/home/jo/agatha/install/apf_controller/lib/libapf_controller.so" to ""
+[1.699s] -- Installing: /home/jo/agatha/install/apf_controller/include
+[1.701s] -- Installing: /home/jo/agatha/install/apf_controller/include/apf_controller
+[1.702s] -- Installing: /home/jo/agatha/install/apf_controller/include/apf_controller/apf_controller.hpp
+[1.719s] -- Installing: /home/jo/agatha/install/apf_controller/include/apf_controller/apf_controller copy.hpp
+[1.732s] -- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/plugin.xml
+[1.733s] -- Installing: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/package_run_dependencies/apf_controller
+[1.740s] -- Installing: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/parent_prefix_path/apf_controller
+[1.753s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/ament_prefix_path.sh
+[1.766s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/ament_prefix_path.dsv
+[1.767s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/path.sh
+[1.770s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/path.dsv
+[1.772s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.bash
+[1.776s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.sh
+[1.779s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.zsh
+[1.782s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.dsv
+[1.790s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/package.dsv
+[1.791s] -- Installing: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/packages/apf_controller
+[1.794s] -- Installing: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/apf_controller
+[1.805s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/cmake/apf_controllerConfig.cmake
+[1.826s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/cmake/apf_controllerConfig-version.cmake
+[1.841s] -- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/package.xml
+[1.845s] Invoked command in '/home/jo/agatha/build/apf_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/apf_controller

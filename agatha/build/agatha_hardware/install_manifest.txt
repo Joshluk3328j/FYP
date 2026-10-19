@@ -1,0 +1,26 @@
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/agatha_hardware.xml
+/home/jo/agatha/install/agatha_hardware/lib/libagatha_hardware.so
+/home/jo/agatha/install/agatha_hardware/include/agatha_hardware/diffbot_system.hpp
+/home/jo/agatha/install/agatha_hardware/include/agatha_hardware/diffbot_system copy.hpp
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/agatha_hardware.xml
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/library_path.sh
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/library_path.dsv
+/home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/package_run_dependencies/agatha_hardware
+/home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/parent_prefix_path/agatha_hardware
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/ament_prefix_path.sh
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/ament_prefix_path.dsv
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/path.sh
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/path.dsv
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.bash
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.sh
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.zsh
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.dsv
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.dsv
+/home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/packages/agatha_hardware
+/home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/agatha_hardware
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/agatha_hardwareConfig.cmake
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/agatha_hardwareConfig-version.cmake
+/home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.xml

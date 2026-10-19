@@ -1,0 +1,26 @@
+[100%] Built target apf_controller
+-- Install configuration: ""
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/plugin.xml
+-- Installing: /home/jo/agatha/install/apf_controller/lib/libapf_controller.so
+-- Set runtime path of "/home/jo/agatha/install/apf_controller/lib/libapf_controller.so" to ""
+-- Installing: /home/jo/agatha/install/apf_controller/include
+-- Installing: /home/jo/agatha/install/apf_controller/include/apf_controller
+-- Installing: /home/jo/agatha/install/apf_controller/include/apf_controller/apf_controller.hpp
+-- Installing: /home/jo/agatha/install/apf_controller/include/apf_controller/apf_controller copy.hpp
+-- Up-to-date: /home/jo/agatha/install/apf_controller/share/apf_controller/plugin.xml
+-- Installing: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/package_run_dependencies/apf_controller
+-- Installing: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/parent_prefix_path/apf_controller
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/ament_prefix_path.sh
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/path.sh
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/environment/path.dsv
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.bash
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.sh
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.zsh
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/local_setup.dsv
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/package.dsv
+-- Installing: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/packages/apf_controller
+-- Installing: /home/jo/agatha/install/apf_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/apf_controller
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/cmake/apf_controllerConfig.cmake
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/cmake/apf_controllerConfig-version.cmake
+-- Installing: /home/jo/agatha/install/apf_controller/share/apf_controller/package.xml

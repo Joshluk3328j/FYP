@@ -1,0 +1,7 @@
+target_num,given_x,given_y,given_oz,given_ow,final_x,final_y,position_error_m,initial_plan_time_s,total_time_s,planned_path_length_m,actual_path_length_m,recovery_events,replanning_events,replanning_frequency_hz,mean_replan_interval_s,worst_replan_interval_s,planner_cpu_avg_%,planner_cpu_peak_%,controller_cpu_avg_%,controller_cpu_peak_%,planner_ram_avg_mb,planner_ram_peak_mb,controller_ram_avg_mb,controller_ram_peak_mb,nodes_expanded,success_rate,interruption_rate
+1,1,-0.12,-0.71,0.71,0.91,-0.15,0.1,0.04,14.33,0.1,1.11,0,9.4,0.7,1.2,2.58,10.86,12.42,29.59,155.79,22.68,22.8,23.36,23.52,,1,1
+2,1.25,-1.04,-0.71,0.71,1.17,-0.99,0.1,0.03,10.91,0.12,0.94,0,8.1,0.75,1.04,1.14,10.88,12.08,8.28,40.55,23.04,23.09,23.64,23.67,,1,1
+3,1.41,-2.61,0,1,1.46,-2.5,0.14,0.04,23.12,0.16,1.72,2,12.4,0.62,1.53,5.28,10.85,12.16,5.98,52.64,23.12,23.23,23.8,23.88,,0.95,1
+4,1.8,-0.2,0,1,1.69,-0.32,0.21,0.06,26.69,0.3,2.87,1.8,19.65,0.83,1.3,2.26,10.97,12.55,9.6,101.72,23.29,23.4,23.87,24,,0.95,1
+5,2.12,0.45,1,0,2.08,0.25,0.21,0.05,19.13,0.34,0.89,2.05,8.8,0.6,,,10.98,12.22,10.85,50.97,23.4,23.45,23.94,23.97,,0.95,1
+6,0.29,0.08,0,1,1.21,0.07,0.98,2.85,60.35,1.24,1.22,13.05,10.85,0.29,7.25,17.92,10.88,12.88,9.32,199.49,23.69,23.87,24.12,24.28,,0.45,1

@@ -1,0 +1,34 @@
+[0.157s] Invoking command in '/home/jo/agatha/build/agatha_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/agatha_hardware -- -j4 -l4
+[0.607s] [100%] Built target agatha_hardware
+[2.262s] Invoked command in '/home/jo/agatha/build/agatha_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/agatha_hardware -- -j4 -l4
+[2.315s] Invoking command in '/home/jo/agatha/build/agatha_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/agatha_hardware
+[2.364s] -- Install configuration: ""
+[2.378s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/agatha_hardware.xml
+[2.381s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/lib/libagatha_hardware.so
+[2.402s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/include
+[2.405s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/include/agatha_hardware
+[2.414s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/include/agatha_hardware/diffbot_system.hpp
+[2.415s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/include/agatha_hardware/diffbot_system copy.hpp
+[2.415s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/agatha_hardware.xml
+[2.416s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/library_path.sh
+[2.417s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/library_path.dsv
+[2.417s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/package_run_dependencies/agatha_hardware
+[2.418s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/parent_prefix_path/agatha_hardware
+[2.419s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/ament_prefix_path.sh
+[2.419s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/ament_prefix_path.dsv
+[2.420s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/path.sh
+[2.421s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/environment/path.dsv
+[2.430s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.bash
+[2.431s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.sh
+[2.437s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.zsh
+[2.438s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/local_setup.dsv
+[2.439s] -- Installing: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.dsv
+[2.445s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/packages/agatha_hardware
+[2.451s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/agatha_hardware
+[2.458s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.459s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[2.461s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.463s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/agatha_hardwareConfig.cmake
+[2.464s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/cmake/agatha_hardwareConfig-version.cmake
+[2.466s] -- Up-to-date: /home/jo/agatha/install/agatha_hardware/share/agatha_hardware/package.xml
+[2.510s] Invoked command in '/home/jo/agatha/build/agatha_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jo/agatha/build/agatha_hardware

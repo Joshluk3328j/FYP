@@ -1,0 +1,13 @@
+goal,comparison,success_proposed,success_baseline,rate_diff,p_raw,p_holm,significant
+1,D*Lite + APF vs NavFn + RPP,20/20,20/20,0.0,1.0,1.0,False
+1,D*Lite + APF vs D*Lite + RPP,20/20,20/20,0.0,1.0,1.0,False
+2,D*Lite + APF vs NavFn + RPP,19/20,20/20,-0.05,1.0,1.0,False
+2,D*Lite + APF vs D*Lite + RPP,19/20,20/20,-0.05,1.0,1.0,False
+3,D*Lite + APF vs NavFn + RPP,19/20,19/20,0.0,1.0,1.0,False
+3,D*Lite + APF vs D*Lite + RPP,19/20,8/20,0.55,0.0004,0.0022,True
+4,D*Lite + APF vs NavFn + RPP,20/20,19/20,0.05,1.0,1.0,False
+4,D*Lite + APF vs D*Lite + RPP,20/20,20/20,0.0,1.0,1.0,False
+5,D*Lite + APF vs NavFn + RPP,20/20,19/20,0.05,1.0,1.0,False
+5,D*Lite + APF vs D*Lite + RPP,20/20,20/20,0.0,1.0,1.0,False
+6,D*Lite + APF vs NavFn + RPP,20/20,9/20,0.55,0.0001,0.0009,True
+6,D*Lite + APF vs D*Lite + RPP,20/20,6/20,0.7,0.0,0.0,True

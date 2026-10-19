@@ -1,0 +1,6 @@
+# Compile
+arduino-cli compile --fqbn arduino:avr:nano /home/jo/agatha/agatha_arduino_firmware/
+
+# Upload
+arduino-cli upload --fqbn arduino:avr:nano -p /dev/ttyUSB1 /home/jo/agatha/agatha_arduino_firmware
+

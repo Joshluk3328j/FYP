@@ -1,0 +1,15 @@
+[0.128s] Invoking command in '/home/jo/agatha/build/apf_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/apf_controller -- -j4 -l4
+[0.370s] [35m[1mConsolidate compiler generated dependencies of target apf_controller[0m
+[0.561s] [ 50%] [32mBuilding CXX object CMakeFiles/apf_controller.dir/src/apf_controller.cpp.o[0m
+[16.502s] [01m[K/home/jo/agatha/src/nav2_ign_example/src/apf_controller/src/apf_controller.cpp:[m[K In member function ‘[01m[Kvirtual void apf_controller::APFController::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[16.502s] [01m[K/home/jo/agatha/src/nav2_ign_example/src/apf_controller/src/apf_controller.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_radius_[m[K’ was not declared in this scope
+[16.503s]    39 |   [01;31m[Krobot_radius_[m[K = node->get_parameter(name + ".robot_radius").as_double();
+[16.503s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[16.548s] [01m[K/home/jo/agatha/src/nav2_ign_example/src/apf_controller/src/apf_controller.cpp:[m[K In member function ‘[01m[Kapf_controller::APFController::Force apf_controller::APFController::repulsiveForce()[m[K’:
+[16.548s] [01m[K/home/jo/agatha/src/nav2_ign_example/src/apf_controller/src/apf_controller.cpp:196:41:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_radius_[m[K’ was not declared in this scope
+[16.549s]   196 |       double dist = std::max(raw_dist - [01;31m[Krobot_radius_[m[K, 0.01);
+[16.550s]       |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[20.088s] gmake[2]: *** [CMakeFiles/apf_controller.dir/build.make:76: CMakeFiles/apf_controller.dir/src/apf_controller.cpp.o] Error 1
+[20.089s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/apf_controller.dir/all] Error 2
+[20.089s] gmake: *** [Makefile:146: all] Error 2
+[20.096s] Invoked command in '/home/jo/agatha/build/apf_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jo/agatha/install/icm20948_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jo/agatha/build/apf_controller -- -j4 -l4
